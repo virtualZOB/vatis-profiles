@@ -1,6 +1,6 @@
 {
   "Name": "Cleveland ARTCC",
-
+   "updateUrl": "https://raw.githubusercontent.com/virtualZOB/vatis-profiles/refs/heads/main/zob.json",
   "updateSerial": 202412211837,
   "Composites": [
     {
