@@ -3,7 +3,11 @@ import glob
 import os
 from datetime import datetime
 
-json_files = glob.glob(os.path.join("../", "**", "*.json"), recursive=False)
+
+parent_directory = os.path.join(os.getcwd(), "..")
+files_in_parent = os.listdir(parent_directory)
+json_files = [f for f in files_in_parent if f.endswith('.json')]
+
 current_date = str(datetime.now().strftime('%Y%m%d'))
 
 
