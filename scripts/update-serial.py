@@ -23,10 +23,15 @@ for json_file in json_files:
         serial_value = str(data["updateSerial"])
         
         print(f"serial is: {serial_value}")
+        print(f"serial comparison is: {serial_value[:8]}")
+        print(f"date comparison value is {current_date}")
         # If the YYYYMMDD matches today, grab the last two digits and increment
         if serial_value[:8] == current_date:
             last_two_digits = int(serial_value[-2:])
+            print(f"last two digits are: {last_two_digits}")
             last_two_digits =+ 1
+            release_number = last_two_digits
+            print(f"new last two digits: {last_two_digits}")
 
             # If more than 99 updates in a day on this file, we need to bomb out loudly
             if last_two_digits > 99:
