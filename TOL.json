@@ -1,115 +1,115 @@
 {
-  "Name": "Toledo",
-  "updateUrl": "https://raw.githubusercontent.com/virtualZOB/vatis-profiles/refs/heads/main/TOL.json",
-  "updateSerial": 2024123001,
-  "Stations": [
-    {
-      "Id": "2f31fe5e-3eee-4610-92a5-2b8a47bb205d",
-      "Name": "Toledo Express",
-      "Identifier": "KTOL",
-      "AtisType": 0,
-      "Contractions": [],
-      "AtisFrequency": 18750,
-      "ObservationTime": {
-        "Enabled": false,
-        "Time": 0
-      },
-      "MagneticVariation": {
-        "Enabled": true,
-        "MagneticDegrees": 10
-      },
-      "AtisVoice": {
-        "UseTextToSpeech": false,
-        "Voice": "Default"
-      },
-      "IDSEndpoint": "https://clevelandcenter.org/api/scripts/vATIS/post",
-      "Presets": [
+    "Name": "Toledo",
+    "updateUrl": "https://raw.githubusercontent.com/virtualZOB/vatis-profiles/refs/heads/main/TOL.json",
+    "updateSerial": 2024123002,
+    "Stations": [
         {
-          "Name": "IMC - RWY 7",
-          "AirportConditions": "ILS RWY 7 APCH IN USE. DEPG RWY 7.",
-          "Notams": "READBACK ALL RWY HS INSTRUCTIONS.",
-          "ArbitraryText": null,
-          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
-          "ExternalGenerator": {
-            "Url": null,
-            "Arrival": null,
-            "Departure": null,
-            "Approaches": null,
-            "Remarks": null
-          }
-        },
-        {
-          "Name": "IMC - RWY 25",
-          "AirportConditions": "ILS RWY 25 APCH IN USE. DEPG RWY 25.",
-          "Notams": "READBACK ALL RWY HS INSTRUCTIONS.",
-          "ArbitraryText": null,
-          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
-          "ExternalGenerator": {
-            "Url": null,
-            "Arrival": null,
-            "Departure": null,
-            "Approaches": null,
-            "Remarks": null
-          }
-        },
-        {
-          "Name": "VMC - RWY 7",
-          "AirportConditions": "VISUAL APCH RWY 7 IN USE. DEPG RWY 7.",
-          "Notams": "READBACK ALL RWY HS INSTRUCTIONS.",
-          "ArbitraryText": null,
-          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
-          "ExternalGenerator": {
-            "Url": null,
-            "Arrival": null,
-            "Departure": null,
-            "Approaches": null,
-            "Remarks": null
-          }
-        },
-        {
-          "Name": "VMC - RWY 25",
-          "AirportConditions": "VISUAL APCH RWY 25 IN USE. DEPG RWY 25.",
-          "Notams": "READBACK ALL RWY HS INSTRUCTIONS.",
-          "ArbitraryText": null,
-          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
-          "ExternalGenerator": {
-            "Url": null,
-            "Arrival": null,
-            "Departure": null,
-            "Approaches": null,
-            "Remarks": null
-          }
+            "Id": "2f31fe5e-3eee-4610-92a5-2b8a47bb205d",
+            "Name": "Toledo Express",
+            "Identifier": "KTOL",
+            "AtisType": 0,
+            "Contractions": [],
+            "AtisFrequency": 18750,
+            "ObservationTime": {
+                "Enabled": false,
+                "Time": 0
+            },
+            "MagneticVariation": {
+                "Enabled": true,
+                "MagneticDegrees": 10
+            },
+            "AtisVoice": {
+                "UseTextToSpeech": false,
+                "Voice": "Default"
+            },
+            "IDSEndpoint": "https://clevelandcenter.org/api/scripts/vATIS/post",
+            "Presets": [
+                {
+                    "Name": "IMC - RWY 7",
+                    "AirportConditions": "ILS RWY 7 APCH IN USE. DEPG RWY 7.",
+                    "Notams": "READBACK ALL RWY HS INSTRUCTIONS.",
+                    "ArbitraryText": null,
+                    "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+                    "ExternalGenerator": {
+                        "Url": null,
+                        "Arrival": null,
+                        "Departure": null,
+                        "Approaches": null,
+                        "Remarks": null
+                    }
+                },
+                {
+                    "Name": "IMC - RWY 25",
+                    "AirportConditions": "ILS RWY 25 APCH IN USE. DEPG RWY 25.",
+                    "Notams": "READBACK ALL RWY HS INSTRUCTIONS.",
+                    "ArbitraryText": null,
+                    "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+                    "ExternalGenerator": {
+                        "Url": null,
+                        "Arrival": null,
+                        "Departure": null,
+                        "Approaches": null,
+                        "Remarks": null
+                    }
+                },
+                {
+                    "Name": "VMC - RWY 7",
+                    "AirportConditions": "VISUAL APCH RWY 7 IN USE. DEPG RWY 7.",
+                    "Notams": "READBACK ALL RWY HS INSTRUCTIONS.",
+                    "ArbitraryText": null,
+                    "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+                    "ExternalGenerator": {
+                        "Url": null,
+                        "Arrival": null,
+                        "Departure": null,
+                        "Approaches": null,
+                        "Remarks": null
+                    }
+                },
+                {
+                    "Name": "VMC - RWY 25",
+                    "AirportConditions": "VISUAL APCH RWY 25 IN USE. DEPG RWY 25.",
+                    "Notams": "READBACK ALL RWY HS INSTRUCTIONS.",
+                    "ArbitraryText": null,
+                    "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+                    "ExternalGenerator": {
+                        "Url": null,
+                        "Arrival": null,
+                        "Departure": null,
+                        "Approaches": null,
+                        "Remarks": null
+                    }
+                }
+            ],
+            "AirportConditionDefinitions": [],
+            "AirportConditionsBeforeFreeText": false,
+            "NotamDefinitions": [
+                {
+                    "Ordinal": 1,
+                    "Text": "WIND SHEAR ADVZYS IN EFCT",
+                    "Enabled": false
+                },
+                {
+                    "Ordinal": 2,
+                    "Text": "RY 07/25 CLSD",
+                    "Enabled": false
+                },
+                {
+                    "Ordinal": 3,
+                    "Text": "RY 16/34 CLSD",
+                    "Enabled": false
+                }
+            ],
+            "NotamsBeforeFreeText": false,
+            "TransitionLevels": [],
+            "UseFaaFormat": true,
+            "UseExternalAtisGenerator": false,
+            "UseNotamPrefix": true,
+            "UseTransitionLevelPrefix": false,
+            "UseMetricUnits": false,
+            "UseSurfaceWindPrefix": false,
+            "UseVisibilitySuffix": false,
+            "UseDecimalTerminology": false
         }
-      ],
-      "AirportConditionDefinitions": [],
-      "AirportConditionsBeforeFreeText": false,
-      "NotamDefinitions": [
-        {
-          "Ordinal": 1,
-          "Text": "WIND SHEAR ADVZYS IN EFCT",
-          "Enabled": false
-        },
-        {
-          "Ordinal": 2,
-          "Text": "RY 07/25 CLSD",
-          "Enabled": false
-        },
-        {
-          "Ordinal": 3,
-          "Text": "RY 16/34 CLSD",
-          "Enabled": false
-        }
-      ],
-      "NotamsBeforeFreeText": false,
-      "TransitionLevels": [],
-      "UseFaaFormat": true,
-      "UseExternalAtisGenerator": false,
-      "UseNotamPrefix": true,
-      "UseTransitionLevelPrefix": false,
-      "UseMetricUnits": false,
-      "UseSurfaceWindPrefix": false,
-      "UseVisibilitySuffix": false,
-      "UseDecimalTerminology": false
-    }
-  ]
+    ]
 }
