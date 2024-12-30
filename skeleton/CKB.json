@@ -1,6 +1,6 @@
 {
-  "Name": "Clarksburg",
-  "updateUrl": "https://raw.githubusercontent.com/virtualZOB/vatis-profiles/refs/heads/main/CKB.json",
-  "updateSerial": 1970010100,
-  "Stations": []
+    "Name": "Clarksburg",
+    "updateUrl": "https://raw.githubusercontent.com/virtualZOB/vatis-profiles/refs/heads/main/CKB.json",
+    "updateSerial": 2024123001,
+    "Stations": []
 }
