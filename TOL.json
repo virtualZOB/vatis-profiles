@@ -1,7 +1,7 @@
 {
     "Name": "Toledo",
     "updateUrl": "https://raw.githubusercontent.com/virtualZOB/vatis-profiles/refs/heads/main/TOL.json",
-    "updateSerial": 2024123002,
+    "updateSerial": 2024123003,
     "Stations": [
         {
             "Id": "2f31fe5e-3eee-4610-92a5-2b8a47bb205d",
