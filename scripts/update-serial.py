@@ -50,3 +50,5 @@ for json_file in json_files:
             json.dump(data, file, indent=4)
             print(f"wrote {json_file}")
 
+print(f"End of run")
+
