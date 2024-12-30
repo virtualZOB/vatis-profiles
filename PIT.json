@@ -1,0 +1,447 @@
+{
+  "Name": "Pittsburgh TRACON",
+  "Stations": [
+    {
+      "Id": "afac1ff5-70e3-4e01-b817-401cdab22f9d",
+      "Name": "Pittsburgh Intl",
+      "Identifier": "KPIT",
+      "AtisType": 0,
+      "Contractions": [
+        {
+          "String": "APCH",
+          "Spoken": "APPROACH"
+        }
+      ],
+      "AtisFrequency": 27250,
+      "ObservationTime": {
+        "Enabled": false,
+        "Time": 0
+      },
+      "MagneticVariation": {
+        "Enabled": true,
+        "MagneticDegrees": 10
+      },
+      "AtisVoice": {
+        "UseTextToSpeech": true,
+        "Voice": "Default"
+      },
+      "IDSEndpoint": "https://clevelandcenter.org/api/scripts/vATIS/post",
+      "Presets": [
+        {
+          "Name": "ILS - WEST FLOW",
+          "AirportConditions": "SIMUL ILS RWY 28L AND ILS RWY 28R APCHS IN USE. ILS RWY 32 IN USE. DEPG RWY 28R, RWY 28C.",
+          "Notams": "OPERATE XPNDR IN ALTITUDE REPORTING MODE ON ALL TWYS AND RWYS. READBACK ALL RWY HS INSTRUCTIONS.",
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+          "ExternalGenerator": {
+            "Url": null,
+            "Arrival": null,
+            "Departure": null,
+            "Approaches": null,
+            "Remarks": null
+          }
+        },
+        {
+          "Name": "ILS - EAST FLOW",
+          "AirportConditions": "SIMUL ILS RWY 10L AND ILS RWY 10R APCHS IN USE. DEPG RWY 10L, RWY 10C, RWY 14.",
+          "Notams": "OPERATE XPNDR IN ALTITUDE REPORTING MODE ON ALL TWYS AND RWYS. READBACK ALL RWY HS INSTRUCTIONS.",
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+          "ExternalGenerator": {
+            "Url": null,
+            "Arrival": null,
+            "Departure": null,
+            "Approaches": null,
+            "Remarks": null
+          }
+        },
+        {
+          "Name": "VISUAL - WEST FLOW",
+          "AirportConditions": "SIMUL VISUAL APCHS RWY 28L AND RWY 28R IN USE. VISUAL APCH RWY 32 IN USE. DEPG RWY 28R, RWY 28C.",
+          "Notams": "OPERATE XPNDR IN ALTITUDE REPORTING MODE ON ALL TWYS AND RWYS. READBACK ALL RWY HS INSTRUCTIONS.",
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+          "ExternalGenerator": {
+            "Url": null,
+            "Arrival": null,
+            "Departure": null,
+            "Approaches": null,
+            "Remarks": null
+          }
+        },
+        {
+          "Name": "VISUAL - EAST FLOW",
+          "AirportConditions": "SIMUL VISUAL APCHS RWY 10L AND RWY 10R IN USE. DEPG RWY 10L, RWY 10C, RWY 14.",
+          "Notams": "OPERATE XPNDR IN ALTITUDE REPORTING MODE ON ALL TWYS AND RWYS. READBACK ALL RWY HS INSTRUCTIONS.",
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+          "ExternalGenerator": {
+            "Url": null,
+            "Arrival": null,
+            "Departure": null,
+            "Approaches": null,
+            "Remarks": null
+          }
+        }
+      ],
+      "AirportConditionDefinitions": [],
+      "AirportConditionsBeforeFreeText": false,
+      "NotamDefinitions": [
+        {
+          "Ordinal": 1,
+          "Text": "HAZD WX INFO FOR PIT AREA AVBL ATC FREQ BY RQST",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 2,
+          "Text": "WIND SHEAR ADVZYS IN EFCT",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 3,
+          "Text": "RY 10L/28R CLSD",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 4,
+          "Text": "RY 10C/28C CLSD",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 5,
+          "Text": "RY 10R/28L CLSD",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 6,
+          "Text": "RY 14/32 CLSD",
+          "Enabled": false
+        }
+      ],
+      "NotamsBeforeFreeText": false,
+      "TransitionLevels": [],
+      "UseFaaFormat": true,
+      "UseExternalAtisGenerator": false,
+      "UseNotamPrefix": true,
+      "UseTransitionLevelPrefix": true,
+      "UseMetricUnits": false,
+      "UseSurfaceWindPrefix": false,
+      "UseVisibilitySuffix": false,
+      "UseDecimalTerminology": false
+    },
+    {
+      "Id": "72a3fce6-a503-4090-af30-0df06713ffd3",
+      "Name": "Beaver Co",
+      "Identifier": "KBVI",
+      "AtisType": 0,
+      "Contractions": [],
+      "AtisFrequency": 18350,
+      "ObservationTime": {
+        "Enabled": false,
+        "Time": 0
+      },
+      "MagneticVariation": {
+        "Enabled": true,
+        "MagneticDegrees": 10
+      },
+      "AtisVoice": {
+        "UseTextToSpeech": false,
+        "Voice": "Default"
+      },
+      "IDSEndpoint": "https://clevelandcenter.org/api/scripts/vATIS/post",
+      "Presets": [
+        {
+          "Name": "VMC-WEST",
+          "AirportConditions": "VISUAL APCH IN USE. LDG AND DEPTG RWY 28.",
+          "Notams": "VFR ACFT SAY DIRECTION OF FLT.",
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+          "ExternalGenerator": {
+            "Url": null,
+            "Arrival": null,
+            "Departure": null,
+            "Approaches": null,
+            "Remarks": null
+          }
+        },
+        {
+          "Name": "VMC-EAST",
+          "AirportConditions": "VISUAL APCH IN USE. LDG AND DEPTG RWY 10.",
+          "Notams": "VFR ACFT SAY DIRECTION OF FLT.\n",
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+          "ExternalGenerator": {
+            "Url": null,
+            "Arrival": null,
+            "Departure": null,
+            "Approaches": null,
+            "Remarks": null
+          }
+        },
+        {
+          "Name": "IMC-WEST",
+          "AirportConditions": "RNAV RWY 28 APCH IN USE. DEPTG RWY 28.",
+          "Notams": "VFR ACFT SAY DIRECTION OF FLT.\n",
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+          "ExternalGenerator": {
+            "Url": null,
+            "Arrival": null,
+            "Departure": null,
+            "Approaches": null,
+            "Remarks": null
+          }
+        },
+        {
+          "Name": "IMC-EAST",
+          "AirportConditions": "ILS RWY 10 APCH IN USE. DEPTG RWY 28.",
+          "Notams": "VFR ACFT SAY DIRECTION OF FLT.\n",
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+          "ExternalGenerator": {
+            "Url": null,
+            "Arrival": null,
+            "Departure": null,
+            "Approaches": null,
+            "Remarks": null
+          }
+        }
+      ],
+      "AirportConditionDefinitions": [],
+      "AirportConditionsBeforeFreeText": false,
+      "NotamDefinitions": [
+        {
+          "Ordinal": 1,
+          "Text": "HAZD WX INFO FOR CLE AREA AVBL ATC FREQ BY RQST",
+          "Enabled": false
+        }
+      ],
+      "NotamsBeforeFreeText": false,
+      "TransitionLevels": [],
+      "UseFaaFormat": true,
+      "UseExternalAtisGenerator": false,
+      "UseNotamPrefix": true,
+      "UseTransitionLevelPrefix": false,
+      "UseMetricUnits": false,
+      "UseSurfaceWindPrefix": false,
+      "UseVisibilitySuffix": false,
+      "UseDecimalTerminology": false
+    },
+    {
+      "Id": "68a0052c-d270-4499-86b9-24b023a9b5f4",
+      "Name": "Allegheny Co",
+      "Identifier": "KAGC",
+      "AtisType": 0,
+      "Contractions": [],
+      "AtisFrequency": 20550,
+      "ObservationTime": {
+        "Enabled": false,
+        "Time": 0
+      },
+      "MagneticVariation": {
+        "Enabled": true,
+        "MagneticDegrees": 10
+      },
+      "AtisVoice": {
+        "UseTextToSpeech": false,
+        "Voice": "Default"
+      },
+      "IDSEndpoint": "https://clevelandcenter.org/api/scripts/vATIS/post",
+      "Presets": [
+        {
+          "Name": "IMC - RWY 10/13",
+          "AirportConditions": "ILS RWY 10 APCH IN USE. DEPG RWY 10, RWY 13.",
+          "Notams": "READBACK ALL RWY HS INSTRUCTIONS.",
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+          "ExternalGenerator": {
+            "Url": null,
+            "Arrival": null,
+            "Departure": null,
+            "Approaches": null,
+            "Remarks": null
+          }
+        },
+        {
+          "Name": "IMC - RWY 28/31",
+          "AirportConditions": "ILS RWY 28 APCH IN USE. DEPG RWY 28, RWY 31.",
+          "Notams": "READBACK ALL RWY HS INSTRUCTIONS.",
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+          "ExternalGenerator": {
+            "Url": null,
+            "Arrival": null,
+            "Departure": null,
+            "Approaches": null,
+            "Remarks": null
+          }
+        },
+        {
+          "Name": "VMC - RWY 10/13",
+          "AirportConditions": "VISUAL APCH RWY 10 IN USE. DEPG RWY 10, RWY 13.",
+          "Notams": "READBACK ALL RWY HS INSTRUCTIONS.",
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+          "ExternalGenerator": {
+            "Url": null,
+            "Arrival": null,
+            "Departure": null,
+            "Approaches": null,
+            "Remarks": null
+          }
+        },
+        {
+          "Name": "VMC - RWY 28/31",
+          "AirportConditions": "VISUAL APCH RWY 28 IN USE. DEPG RWY 28, RWY 31.",
+          "Notams": "READBACK ALL RWY HS INSTRUCTIONS.",
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+          "ExternalGenerator": {
+            "Url": null,
+            "Arrival": null,
+            "Departure": null,
+            "Approaches": null,
+            "Remarks": null
+          }
+        }
+      ],
+      "AirportConditionDefinitions": [],
+      "AirportConditionsBeforeFreeText": false,
+      "NotamDefinitions": [
+        {
+          "Ordinal": 1,
+          "Text": "WIND SHEAR ADVZYS IN EFCT",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 2,
+          "Text": "RY 10/28 CLSD",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 3,
+          "Text": "RY 13/31 CLSD",
+          "Enabled": false
+        }
+      ],
+      "NotamsBeforeFreeText": false,
+      "TransitionLevels": [],
+      "UseFaaFormat": true,
+      "UseExternalAtisGenerator": false,
+      "UseNotamPrefix": true,
+      "UseTransitionLevelPrefix": false,
+      "UseMetricUnits": false,
+      "UseSurfaceWindPrefix": false,
+      "UseVisibilitySuffix": false,
+      "UseDecimalTerminology": false
+    },
+    {
+      "Id": "aca9ccea-aa29-48a8-b285-e860e870e54b",
+      "Name": "Wheeling Ohio Co",
+      "Identifier": "KHLG",
+      "AtisType": 0,
+      "Contractions": [],
+      "AtisFrequency": 27375,
+      "ObservationTime": {
+        "Enabled": false,
+        "Time": 0
+      },
+      "MagneticVariation": {
+        "Enabled": true,
+        "MagneticDegrees": 10
+      },
+      "AtisVoice": {
+        "UseTextToSpeech": false,
+        "Voice": "Default"
+      },
+      "IDSEndpoint": "https://clevelandcenter.org/api/scripts/vATIS/post",
+      "Presets": [
+        {
+          "Name": "VMC-SOUTH",
+          "AirportConditions": "VISUAL APCH IN USE. LDG AND DEPTG RWY 21 AND RWY 19.",
+          "Notams": "VFR ACFT SAY DIRECTION OF FLT. READBACK ALL RWY HS INSTRUCTION.",
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+          "ExternalGenerator": {
+            "Url": null,
+            "Arrival": null,
+            "Departure": null,
+            "Approaches": null,
+            "Remarks": null
+          }
+        },
+        {
+          "Name": "VMC-NORTH",
+          "AirportConditions": "VISUAL APCH IN USE. LDG AND DEPTG RWY 03 AND RWY 34.",
+          "Notams": "VFR ACFT SAY DIRECTION OF FLT. READBACK ALL RWY HS INSTRUCTION.",
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+          "ExternalGenerator": {
+            "Url": null,
+            "Arrival": null,
+            "Departure": null,
+            "Approaches": null,
+            "Remarks": null
+          }
+        },
+        {
+          "Name": "IMC-SOUTH",
+          "AirportConditions": "RNAV RWY 21 APCH IN USE. LDG AND DEPTG RWY 03 AND RWY 34.",
+          "Notams": "VFR ACFT SAY DIRECTION OF FLT. READBACK ALL RWY HS INSTRUCTION.",
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+          "ExternalGenerator": {
+            "Url": null,
+            "Arrival": null,
+            "Departure": null,
+            "Approaches": null,
+            "Remarks": null
+          }
+        },
+        {
+          "Name": "IMC-NORTH",
+          "AirportConditions": "ILS RWY 03 APCH IN USE. LDG AND DEPTG RWY 03 AND RWY 34.\n",
+          "Notams": "VFR ACFT SAY DIRECTION OF FLT. READBACK ALL RWY HS INSTRUCTION.",
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+          "ExternalGenerator": {
+            "Url": null,
+            "Arrival": null,
+            "Departure": null,
+            "Approaches": null,
+            "Remarks": null
+          }
+        }
+      ],
+      "AirportConditionDefinitions": [],
+      "AirportConditionsBeforeFreeText": false,
+      "NotamDefinitions": [
+        {
+          "Ordinal": 1,
+          "Text": "HAZD WX INFO FOR CLE AREA AVBL ATC FREQ BY RQST",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 2,
+          "Text": "RWY 03/21 CLSD",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 3,
+          "Text": "RWY 19/34 CLSD",
+          "Enabled": false
+        }
+      ],
+      "NotamsBeforeFreeText": false,
+      "TransitionLevels": [],
+      "UseFaaFormat": true,
+      "UseExternalAtisGenerator": false,
+      "UseNotamPrefix": true,
+      "UseTransitionLevelPrefix": false,
+      "UseMetricUnits": false,
+      "UseSurfaceWindPrefix": false,
+      "UseVisibilitySuffix": false,
+      "UseDecimalTerminology": false
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "Name": "Clarksburg",
+  "Stations": [
+    {
+      "Id": "7dfc06d5-f92f-4cee-aee6-97a7293c57b6",
+      "Name": "North Central West Virginia",
+      "Identifier": "KCKB",
+      "AtisType": 0,
+      "Contractions": [],
+      "AtisFrequency": 27825,
+      "ObservationTime": {
+        "Enabled": false,
+        "Time": 0
+      },
+      "MagneticVariation": {
+        "Enabled": true,
+        "MagneticDegrees": 10
+      },
+      "AtisVoice": {
+        "UseTextToSpeech": false,
+        "Voice": "Default"
+      },
+      "IDSEndpoint": "https://clevelandcenter.org/api/scripts/vATIS/post",
+      "Presets": [
+        {
+          "Name": "VMC-NORTH",
+          "AirportConditions": "VIUSAL APCH IN USE. LDG AND DEPTG RWY 03.",
+          "Notams": "VFR ACFT SAY DIRCTION OF FLT.",
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+          "ExternalGenerator": {
+            "Url": null,
+            "Arrival": null,
+            "Departure": null,
+            "Approaches": null,
+            "Remarks": null
+          }
+        },
+        {
+          "Name": "VMC-SOUTH",
+          "AirportConditions": "VIUSAL APCH IN USE. LDG AND DEPTG RWY 21.",
+          "Notams": "VFR ACFT SAY DIRCTION OF FLT.\n",
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+          "ExternalGenerator": {
+            "Url": null,
+            "Arrival": null,
+            "Departure": null,
+            "Approaches": null,
+            "Remarks": null
+          }
+        },
+        {
+          "Name": "IMC-NORTH",
+          "AirportConditions": "RNAV RWY 03 APCH IN USE. LDG AND DEPTG RWY 03.\n",
+          "Notams": "VFR ACFT SAY DIRCTION OF FLT.\n",
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+          "ExternalGenerator": {
+            "Url": null,
+            "Arrival": null,
+            "Departure": null,
+            "Approaches": null,
+            "Remarks": null
+          }
+        },
+        {
+          "Name": "IMC-SOUTH",
+          "AirportConditions": "ILS RWY 21 APCH IN USE. LDG AND DEPTG RWY 21.\n",
+          "Notams": "VFR ACFT SAY DIRCTION OF FLT.\n",
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+          "ExternalGenerator": {
+            "Url": null,
+            "Arrival": null,
+            "Departure": null,
+            "Approaches": null,
+            "Remarks": null
+          }
+        }
+      ],
+      "AirportConditionDefinitions": [],
+      "AirportConditionsBeforeFreeText": false,
+      "NotamDefinitions": [
+        {
+          "Ordinal": 1,
+          "Text": "HAZD WX INFO FOR CLE AREA AVBL ATC FREQ BY RQST",
+          "Enabled": false
+        }
+      ],
+      "NotamsBeforeFreeText": false,
+      "TransitionLevels": [],
+      "UseFaaFormat": true,
+      "UseExternalAtisGenerator": false,
+      "UseNotamPrefix": true,
+      "UseTransitionLevelPrefix": false,
+      "UseMetricUnits": false,
+      "UseSurfaceWindPrefix": false,
+      "UseVisibilitySuffix": false,
+      "UseDecimalTerminology": false
+    },
+    {
+      "Id": "5318c5cb-64c2-4e9b-9d34-f0c279a207cc",
+      "Name": "Morgantown Muni",
+      "Identifier": "KMGW",
+      "AtisType": 0,
+      "Contractions": [],
+      "AtisFrequency": 20675,
+      "ObservationTime": {
+        "Enabled": false,
+        "Time": 0
+      },
+      "MagneticVariation": {
+        "Enabled": true,
+        "MagneticDegrees": 10
+      },
+      "AtisVoice": {
+        "UseTextToSpeech": false,
+        "Voice": "Default"
+      },
+      "IDSEndpoint": "https://clevelandcenter.org/api/scripts/vATIS/post",
+      "Presets": [
+        {
+          "Name": "VMC-NORTH",
+          "AirportConditions": "VISUAL APCH IN USE. LDGT AND DEPTG RWY 36.",
+          "Notams": "VFR ACFT SAY DIRECTION OF FLT.",
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+          "ExternalGenerator": {
+            "Url": null,
+            "Arrival": null,
+            "Departure": null,
+            "Approaches": null,
+            "Remarks": null
+          }
+        },
+        {
+          "Name": "VMC-SOUTH",
+          "AirportConditions": "VISUAL APCH IN USE. LDGT AND DEPTG RWY 18.\n",
+          "Notams": "VFR ACFT SAY DIRECTION OF FLT.\n",
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+          "ExternalGenerator": {
+            "Url": null,
+            "Arrival": null,
+            "Departure": null,
+            "Approaches": null,
+            "Remarks": null
+          }
+        },
+        {
+          "Name": "IMC-NORTH",
+          "AirportConditions": "RNAV RWY 36 APCH IN USE. LDGT AND DEPTG RWY 36.\n",
+          "Notams": "VFR ACFT SAY DIRECTION OF FLT.\n",
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+          "ExternalGenerator": {
+            "Url": null,
+            "Arrival": null,
+            "Departure": null,
+            "Approaches": null,
+            "Remarks": null
+          }
+        },
+        {
+          "Name": "IMC-SOUTH",
+          "AirportConditions": "ILS RWY 18 APCH IN USE. LDGT AND DEPTG RWY 18.\n\n\n",
+          "Notams": "VFR ACFT SAY DIRECTION OF FLT.\n",
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+          "ExternalGenerator": {
+            "Url": null,
+            "Arrival": null,
+            "Departure": null,
+            "Approaches": null,
+            "Remarks": null
+          }
+        }
+      ],
+      "AirportConditionDefinitions": [],
+      "AirportConditionsBeforeFreeText": false,
+      "NotamDefinitions": [
+        {
+          "Ordinal": 1,
+          "Text": "HAZD WX INFO FOR CLE AREA AVBL ATC FREQ BY RQST",
+          "Enabled": false
+        }
+      ],
+      "NotamsBeforeFreeText": false,
+      "TransitionLevels": [],
+      "UseFaaFormat": true,
+      "UseExternalAtisGenerator": false,
+      "UseNotamPrefix": true,
+      "UseTransitionLevelPrefix": false,
+      "UseMetricUnits": false,
+      "UseSurfaceWindPrefix": false,
+      "UseVisibilitySuffix": false,
+      "UseDecimalTerminology": false
+    }
+  ]
+}
