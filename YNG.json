@@ -1,7 +1,7 @@
 {
     "Name": "Youngstown",
     "updateUrl": "https://raw.githubusercontent.com/virtualZOB/vatis-profiles/refs/heads/main/YNG.json",
-    "updateSerial": 2024123005,
+    "updateSerial": 2024123006,
     "Stations": [
         {
             "Id": "306964ab-a1cc-459d-b907-f7d8d09cabf0",
