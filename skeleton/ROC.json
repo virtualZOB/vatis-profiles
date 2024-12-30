@@ -1,6 +1,6 @@
 {
-  "Name": "Rochester",
-  "updateUrl": "https://raw.githubusercontent.com/virtualZOB/vatis-profiles/refs/heads/main/ROC.json",
-  "updateSerial": 1970010100,
-  "Stations": []
+    "Name": "Rochester",
+    "updateUrl": "https://raw.githubusercontent.com/virtualZOB/vatis-profiles/refs/heads/main/ROC.json",
+    "updateSerial": 2024123000,
+    "Stations": []
 }
