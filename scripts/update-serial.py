@@ -32,7 +32,7 @@ for json_file_name in json_files:
     if serial_value[:8] == current_date:
         last_two_digits = int(serial_value[-2:])
         print(f"last two digits are: {last_two_digits}")
-        last_two_digits =+ 1
+        last_two_digits = last_two_digits + 1
         release_number = last_two_digits
         print(f"new last two digits: {last_two_digits}")
 
