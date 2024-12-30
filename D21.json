@@ -1,7 +1,7 @@
 {
     "Name": "Detroit TRACON",
     "updateUrl": "https://raw.githubusercontent.com/virtualZOB/vatis-profiles/refs/heads/main/D21.json",
-    "updateSerial": 2024123005,
+    "updateSerial": 2024123006,
     "Stations": [
         {
             "Id": "e9636d3c-f218-4ed9-ae06-c7d47a03e747",
