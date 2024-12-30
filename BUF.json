@@ -1,7 +1,7 @@
 {
     "Name": "Buffalo TRACON",
     "updateUrl": "https://raw.githubusercontent.com/virtualZOB/vatis-profiles/refs/heads/main/BUF.json",
-    "updateSerial": 2024123003,
+    "updateSerial": 2024123005,
     "Stations": [
         {
             "Id": "26484947-a5b5-47e2-816a-9283ad1917c1",
