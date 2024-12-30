@@ -1,6 +1,6 @@
 {
   "Name": "Buffalo TRACON",
-  "updateUrl": "https://raw.githubusercontent.com/virtualZOB/vatis-profiles/refs/heads/main/BUF.json"
-  "updateSerial": 1970010100
+  "updateUrl": "https://raw.githubusercontent.com/virtualZOB/vatis-profiles/refs/heads/main/BUF.json",
+  "updateSerial": 1970010100,
   "Stations": []
 }
