@@ -1,7 +1,7 @@
 {
     "Name": "Cleveland ARTCC",
     "updateUrl": "https://raw.githubusercontent.com/virtualZOB/vatis-profiles/refs/heads/main/ZOB.json",
-    "updateSerial": 2024123006,
+    "updateSerial": 2025011300,
     "Stations": [
         {
             "Id": "81a1d759-463b-4bec-9c2d-396789e64b35",
