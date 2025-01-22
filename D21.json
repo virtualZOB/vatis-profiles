@@ -1,7 +1,7 @@
 {
     "Name": "Detroit TRACON",
     "updateUrl": "https://raw.githubusercontent.com/virtualZOB/vatis-profiles/refs/heads/main/D21.json",
-    "updateSerial": 2025011301,
+    "updateSerial": 2025012200,
     "Stations": [
         {
             "Id": "e9636d3c-f218-4ed9-ae06-c7d47a03e747",
@@ -9,7 +9,7 @@
             "Identifier": "KDTW",
             "AtisType": 0,
             "Contractions": [],
-            "AtisFrequency": 33670,
+            "AtisFrequency": 33675,
             "ObservationTime": {
                 "Enabled": false,
                 "Time": 0

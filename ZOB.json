@@ -1,7 +1,7 @@
 {
     "Name": "Cleveland ARTCC",
     "updateUrl": "https://raw.githubusercontent.com/virtualZOB/vatis-profiles/refs/heads/main/ZOB.json",
-    "updateSerial": 2025011301,
+    "updateSerial": 2025012200,
     "Stations": [
         {
             "Id": "81a1d759-463b-4bec-9c2d-396789e64b35",
@@ -9,7 +9,7 @@
             "Identifier": "KDTW",
             "AtisType": 0,
             "Contractions": [],
-            "AtisFrequency": 33670,
+            "AtisFrequency": 33675,
             "ObservationTime": {
                 "Enabled": false,
                 "Time": 0
