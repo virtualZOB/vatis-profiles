@@ -26,7 +26,7 @@
             "Presets": [
                 {
                     "Name": "VISUAL - SOUTH FLOW",
-                    "AirportConditions": "SIMUL VISUAL APCHS RWY 21L, RWY 22R IN USE. DEPG RWY 21R, RWY 22L.",
+                    "AirportConditions": "SIMUL VISUAL RWY 21L, RWY 22R USE Z LOC FREQ 111.95 APCH IN USE. DEPG RWY 21R, RWY 22L.",
                     "Notams": "VFR ACFT SAY DRCTN OF FLT. READBACK ALL RWY HS INSTRUCTIONS. OPER XPNDR ON MODE CHARLIE ON ALL TWYS AND RWYS.",
                     "ArbitraryText": null,
                     "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
@@ -40,7 +40,7 @@
                 },
                 {
                     "Name": "VISUAL - NORTH FLOW",
-                    "AirportConditions": "SIMUL VISUAL APCHS RWY 3R, RWY 4L IN USE. DEPG RWY 3L, RWY 4R. RWY 4R DEPARTURE POINT IS Y2, DISTANCE REMAINING IS 11, THOUSAND, 450, FT, FULL LENGTH AVLB UPON RQST.",
+                    "AirportConditions": "SIMUL VISUAL RWY 3R, RWY 4L USE Z LOC FREQ 111.95 APCH IN USE. DEPG RWY 3L, RWY 4R. RWY 4R DEPARTURE POINT IS Y2, DISTANCE REMAINING IS 11, THOUSAND, 450, FT, FULL LENGTH AVLB UPON RQST.",
                     "Notams": "VFR ACFT SAY DRCTN OF FLT. READBACK ALL RWY HS INSTRUCTIONS. OPER XPNDR ON MODE CHARLIE ON ALL TWYS AND RWYS.",
                     "ArbitraryText": null,
                     "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
@@ -192,7 +192,7 @@
             "Presets": [
                 {
                     "Name": "VMC-SOUTH",
-                    "AirportConditions": "VIS APCH RWY 15 IN USE. DEPTG RWY 15, RWY 25.",
+                    "AirportConditions": "VIS APCH RWY 15 IN USE. DEPTG RWY 15.",
                     "Notams": "VFR ACFT SAY DIRECTION OF FLT. READ BACK ALL RWY HS INSTRUCTION.",
                     "ArbitraryText": null,
                     "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
@@ -206,7 +206,7 @@
                 },
                 {
                     "Name": "VMC-NORTH",
-                    "AirportConditions": "VIS APCH RWY 33 IN USE. DEPTG RWY 33, RWY 07.",
+                    "AirportConditions": "VIS APCH RWY 33 IN USE. DEPTG RWY 33.",
                     "Notams": "VFR ACFT SAY DIRECTION OF FLT. READ BACK ALL RWY HS INSTRUCTION.",
                     "ArbitraryText": null,
                     "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
@@ -220,7 +220,7 @@
                 },
                 {
                     "Name": "IMC-SOUTH",
-                    "AirportConditions": "ILS RWY 15 APCH IN USE. DEPTG RWY 15, RWY 25.\n",
+                    "AirportConditions": "ILS RWY 15 APCH IN USE. DEPTG RWY 15.",
                     "Notams": "VFR ACFT SAY DIRECTION OF FLT. READ BACK ALL RWY HS INSTRUCTION.",
                     "ArbitraryText": null,
                     "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
@@ -234,7 +234,7 @@
                 },
                 {
                     "Name": "IMC-NORTH",
-                    "AirportConditions": "ILS RWY 33 APCH IN USE. DEPTG RWY 33, RWY 07.",
+                    "AirportConditions": "ILS RWY 33 APCH IN USE. DEPTG RWY 33.",
                     "Notams": "VFR ACFT SAY DIRECTION OF FLT. READ BACK ALL RWY HS INSTRUCTION.",
                     "ArbitraryText": null,
                     "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
@@ -305,8 +305,8 @@
             "Presets": [
                 {
                     "Name": "VISUAL WEST",
-                    "AirportConditions": "VISUAL APP RWY 24 IN USE. DEPTG RWY 2F4.",
-                    "Notams": "VFR ACFT SAY DRCTN OF FLT. READ BACK ALL RWY HS INSTRUCTION. GO BLUE!!!",
+                    "AirportConditions": "VISUAL APP RWY 24 IN USE. DEPTG RWY 24.",
+                    "Notams": "VFR ACFT SAY DRCTN OF FLT. READ BACK ALL RWY HS INSTRUCTIONS.",
                     "ArbitraryText": null,
                     "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
                     "ExternalGenerator": {
@@ -320,7 +320,7 @@
                 {
                     "Name": "VISUAL EAST",
                     "AirportConditions": "VISUAL APP RWY 06 IN USE. DEPTG RWY 06.",
-                    "Notams": "VFR ACFT SAY DRCTN OF FLT. READ BACK ALL RWY HS INSTRUCTION.\n",
+                    "Notams": "VFR ACFT SAY DRCTN OF FLT. READ BACK ALL RWY HS INSTRUCTIONS.",
                     "ArbitraryText": null,
                     "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
                     "ExternalGenerator": {
@@ -334,7 +334,7 @@
                 {
                     "Name": "IMC WEST",
                     "AirportConditions": "RNAV GPS APP RWY 24 IN USE. DEPTG RWY 24.",
-                    "Notams": "VFR ACFT SAY DRCTN OF FLT. READ BACK ALL RWY HS INSTRUCTION. GO BLUE!!!",
+                    "Notams": "VFR ACFT SAY DRCTN OF FLT. READ BACK ALL RWY HS INSTRUCTIONS.",
                     "ArbitraryText": null,
                     "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
                     "ExternalGenerator": {
@@ -348,7 +348,7 @@
                 {
                     "Name": "IMC EAST",
                     "AirportConditions": "RNAV GPS APP RWY 06 IN USE. DEPTG RWY 06.",
-                    "Notams": "VFR ACFT SAY DRCTN OF FLT. READ BACK ALL RWY HS INSTRUCTION.\n",
+                    "Notams": "VFR ACFT SAY DRCTN OF FLT. READ BACK ALL RWY HS INSTRUCTIONS.",
                     "ArbitraryText": null,
                     "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
                     "ExternalGenerator": {
@@ -437,7 +437,7 @@
                 {
                     "Name": "IMC-EAST",
                     "AirportConditions": "ILS RWY 9R IN USE. DEPTG RWY 9L, 9R.",
-                    "Notams": "VFR ACFT SAY DRCTN OF FLT. READ BACK ALL RWY HS INSTRUCTION.\n",
+                    "Notams": "VFR ACFT SAY DRCTN OF FLT. READ BACK ALL RWY HS INSTRUCTIONS.",
                     "ArbitraryText": null,
                     "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
                     "ExternalGenerator": {
@@ -451,7 +451,7 @@
                 {
                     "Name": "IMC-WEST",
                     "AirportConditions": "LOC BC RWY 27L IN USE. DEPTG RWY 27L, 27R.",
-                    "Notams": "VFR ACFT SAY DRCTN OF FLT. READ BACK ALL RWY HS INSTRUCTION.\n\n",
+                    "Notams": "VFR ACFT SAY DRCTN OF FLT. READ BACK ALL RWY HS INSTRUCTIONS.",
                     "ArbitraryText": null,
                     "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
                     "ExternalGenerator": {
@@ -517,7 +517,7 @@
                 {
                     "Name": "IMC - 23/27 FLOW",
                     "AirportConditions": "ILS RWY 23 APCH IN USE. DEPTG RWY 23, RWY 27.",
-                    "Notams": "VFR ACFT SAY DIRECTION OF FLT. READ BACK ALL RWY HS INSTRUCTION.",
+                    "Notams": "VFR ACFT SAY DIRECTION OF FLT. READ BACK ALL RWY HS INSTRUCTIONS.",
                     "ArbitraryText": null,
                     "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "ExternalGenerator": {
@@ -531,7 +531,7 @@
                 {
                     "Name": "IMC - 5/9 FLOW",
                     "AirportConditions": "ILS RWY 5 APCH, RNAV RWY 9 APCH IN USE. DEPTG RWY 5, RWY 9.",
-                    "Notams": "VFR ACFT SAY DIRECTION OF FLT. READ BACK ALL RWY HS INSTRUCTION.",
+                    "Notams": "VFR ACFT SAY DIRECTION OF FLT. READ BACK ALL RWY HS INSTRUCTIONS.",
                     "ArbitraryText": null,
                     "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "ExternalGenerator": {
@@ -545,7 +545,7 @@
                 {
                     "Name": "VMC - 23/27 FLOW",
                     "AirportConditions": "VISUAL APCH RWY 23 IN USE. DEPTG RWY 23, RWY 27.",
-                    "Notams": "VFR ACFT SAY DIRECTION OF FLT. READ BACK ALL RWY HS INSTRUCTION.",
+                    "Notams": "VFR ACFT SAY DIRECTION OF FLT. READ BACK ALL RWY HS INSTRUCTIONs.",
                     "ArbitraryText": null,
                     "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "ExternalGenerator": {
@@ -559,7 +559,7 @@
                 {
                     "Name": "VMC - 5/9 FLOW",
                     "AirportConditions": "VISUAL APCH RWY 5R, VISUAL APCH RWY 9 IN USE. DEPTG RWY 5R, RWY 9.",
-                    "Notams": "VFR ACFT SAY DIRECTION OF FLT. READ BACK ALL RWY HS INSTRUCTION.",
+                    "Notams": "VFR ACFT SAY DIRECTION OF FLT. READ BACK ALL RWY HS INSTRUCTIONS.",
                     "ArbitraryText": null,
                     "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "ExternalGenerator": {
