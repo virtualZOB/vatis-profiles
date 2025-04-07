@@ -2,7 +2,7 @@
     "version": 1,
     "name": "Arnold Palmer Rgnl",
     "updateUrl": "https://raw.githubusercontent.com/virtualZOB/vatis-profiles/refs/heads/main/LBE.json",
-    "updateSerial": 2025012200,
+    "updateSerial": 2025040700,
     "stations": [
         {
             "id": "ef3b85be-3a32-4ccc-ac66-fa7d10af70e3",
@@ -327,7 +327,7 @@
                     "id": "69d5acb8-5246-428a-aeda-e0064db01903",
                     "ordinal": 0,
                     "name": "IMC 24",
-                    "AirportConditions": "ILS RWY 24 APCH IN USE. LDG AND DEPTG RWY 24.\n",
+                    "AirportConditions": "ILS RWY 24 APCH IN USE. LDG AND DEPG RWY 24.\n",
                     "Notams": "VFR ACFT SAY DIRCTION OF FLT.\n",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
@@ -338,7 +338,7 @@
                     "id": "19f39ac1-0995-4c1c-b10e-1b998089f18d",
                     "ordinal": 1,
                     "name": "IMC 06",
-                    "AirportConditions": "RNAV RWY 06 APCH IN USE. LDG AND DEPTG RWY 06.\n",
+                    "AirportConditions": "RNAV RWY 06 APCH IN USE. LDG AND DEPG RWY 06.\n",
                     "Notams": "VFR ACFT SAY DIRCTION OF FLT.\n",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
@@ -349,7 +349,7 @@
                     "id": "e4d3d7f2-9c14-4892-b79c-0ff9f1b847c8",
                     "ordinal": 2,
                     "name": "VMC 24",
-                    "AirportConditions": "VISUAL RWY 24 APCH IN USE. LDG AND DEPTG RWY 24.\n",
+                    "AirportConditions": "VISUAL RWY 24 APCH IN USE. LDG AND DEPG RWY 24.\n",
                     "Notams": "VFR ACFT SAY DIRCTION OF FLT.\n",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
@@ -360,7 +360,7 @@
                     "id": "5696dc88-f2b2-48fc-9ae3-ceb4d9e8071d",
                     "ordinal": 3,
                     "name": "VMC 06",
-                    "AirportConditions": "VISUAL RWY 06 APCH IN USE. LDG AND DEPTG RWY 06.\n",
+                    "AirportConditions": "VISUAL RWY 06 APCH IN USE. LDG AND DEPG RWY 06.\n",
                     "Notams": "VFR ACFT SAY DIRCTION OF FLT.\n",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. [WX]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {

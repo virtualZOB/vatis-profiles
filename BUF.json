@@ -1,7 +1,7 @@
 {
     "Name": "Buffalo TRACON",
     "updateUrl": "https://raw.githubusercontent.com/virtualZOB/vatis-profiles/refs/heads/main/BUF.json",
-    "updateSerial": 2025012200,
+    "updateSerial": 2025040700,
     "Stations": [
         {
             "Id": "26484947-a5b5-47e2-816a-9283ad1917c1",
@@ -79,6 +79,20 @@
                         "Approaches": null,
                         "Remarks": null
                     }
+                },
+                {
+                    "Name": "RNAV - EAST FLOW",
+                    "AirportConditions": "RNAV Y RWY 5 APCH IN USE. DEPG RWY 5, RWY 32.",
+                    "Notams": "CAUTION BIRD ACTIVITY VICINITY AIRPORT. READBACK ALL RWYS HS INSTRUCTIONS.",
+                    "ArbitraryText": null,
+                    "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+                    "ExternalGenerator": {
+                        "Url": null,
+                        "Arrival": null,
+                        "Departure": null,
+                        "Approaches": null,
+                        "Remarks": null
+                    }
                 }
             ],
             "AirportConditionDefinitions": [],
@@ -144,7 +158,7 @@
             "Presets": [
                 {
                     "Name": "IMC - 28 FLOW",
-                    "AirportConditions": "ILS Z RWY 28R APCH IN USE. DEPG RWY 28R, RWY 28L.",
+                    "AirportConditions": "ILS Z RWY 28R APCH IN USE. DEPG RWY 28R.",
                     "Notams": "READBACK ALL RWY HS INSTRUCTIONS.",
                     "ArbitraryText": null,
                     "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
@@ -158,7 +172,7 @@
                 },
                 {
                     "Name": "IMC - 10 FLOW",
-                    "AirportConditions": "RNAV RWY 10L APCH IN USE. DEPG RWY 6, RWY 10L, RWY 10R.",
+                    "AirportConditions": "RNAV RWY 10L APCH IN USE. DEPG RWY 6, RWY 10L.",
                     "Notams": "READBACK ALL RWY HS INSTRUCTIONS.",
                     "ArbitraryText": null,
                     "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
@@ -172,7 +186,7 @@
                 },
                 {
                     "Name": "VMC - 28 FLOW",
-                    "AirportConditions": "VISUAL APCH RWY 28R IN USE. DEPG 28R, RWY 28L.",
+                    "AirportConditions": "VISUAL APCH RWY 28R IN USE. DEPG RWY 28R.",
                     "Notams": "READBACK ALL RWY HS INSTRUCTIONS.",
                     "ArbitraryText": null,
                     "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
@@ -186,8 +200,8 @@
                 },
                 {
                     "Name": "VMC - 10 FLOW",
-                    "AirportConditions": "VISUAL APCH RWY 10L IN USE. DEPG RWY 6, RWY 10L, RWY 10R.",
-                    "Notams": "READBACK ALL RWY HS INSTRUCTIONS.",
+                    "AirportConditions": "VISUAL APCH RWY 10L IN USE. DEPG RWY 6, RWY 10L.",
+                    "Notams": "RWY 28L/10R CLSD INDEFINITELY. READBACK ALL RWY HS INSTRUCTIONS.",
                     "ArbitraryText": null,
                     "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "ExternalGenerator": {

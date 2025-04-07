@@ -1,7 +1,7 @@
 {
     "Name": "Clarksburg TRACON",
     "updateUrl": "https://raw.githubusercontent.com/virtualZOB/vatis-profiles/refs/heads/main/CKB.json",
-    "updateSerial": 2025012200,
+    "updateSerial": 2025040700,
     "Stations": [
         {
             "Id": "7dfc06d5-f92f-4cee-aee6-97a7293c57b6",
@@ -26,7 +26,7 @@
             "Presets": [
                 {
                     "Name": "VMC-NORTH",
-                    "AirportConditions": "VIUSAL APCH IN USE. LDG AND DEPTG RWY 03.",
+                    "AirportConditions": "VIUSAL APCH IN USE. LDG AND DEPG RWY 03.",
                     "Notams": "VFR ACFT SAY DIRCTION OF FLT.",
                     "ArbitraryText": null,
                     "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
@@ -40,7 +40,7 @@
                 },
                 {
                     "Name": "VMC-SOUTH",
-                    "AirportConditions": "VIUSAL APCH IN USE. LDG AND DEPTG RWY 21.",
+                    "AirportConditions": "VIUSAL APCH IN USE. LDG AND DEPG RWY 21.",
                     "Notams": "VFR ACFT SAY DIRCTION OF FLT.\n",
                     "ArbitraryText": null,
                     "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
@@ -54,7 +54,7 @@
                 },
                 {
                     "Name": "IMC-NORTH",
-                    "AirportConditions": "RNAV RWY 03 APCH IN USE. LDG AND DEPTG RWY 03.\n",
+                    "AirportConditions": "RNAV RWY 03 APCH IN USE. LDG AND DEPG RWY 03.\n",
                     "Notams": "VFR ACFT SAY DIRCTION OF FLT.\n",
                     "ArbitraryText": null,
                     "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
@@ -68,7 +68,7 @@
                 },
                 {
                     "Name": "IMC-SOUTH",
-                    "AirportConditions": "ILS RWY 21 APCH IN USE. LDG AND DEPTG RWY 21.\n",
+                    "AirportConditions": "ILS RWY 21 APCH IN USE. LDG AND DEPG RWY 21.\n",
                     "Notams": "VFR ACFT SAY DIRCTION OF FLT.\n",
                     "ArbitraryText": null,
                     "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
@@ -124,7 +124,7 @@
             "Presets": [
                 {
                     "Name": "VMC-NORTH",
-                    "AirportConditions": "VISUAL APCH IN USE. LDGT AND DEPTG RWY 36.",
+                    "AirportConditions": "VISUAL APCH IN USE. LDGT AND DEPG RWY 36.",
                     "Notams": "VFR ACFT SAY DIRECTION OF FLT.",
                     "ArbitraryText": null,
                     "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
@@ -138,7 +138,7 @@
                 },
                 {
                     "Name": "VMC-SOUTH",
-                    "AirportConditions": "VISUAL APCH IN USE. LDGT AND DEPTG RWY 18.\n",
+                    "AirportConditions": "VISUAL APCH IN USE. LDGT AND DEPG RWY 18.\n",
                     "Notams": "VFR ACFT SAY DIRECTION OF FLT.\n",
                     "ArbitraryText": null,
                     "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
@@ -152,7 +152,7 @@
                 },
                 {
                     "Name": "IMC-NORTH",
-                    "AirportConditions": "RNAV RWY 36 APCH IN USE. LDGT AND DEPTG RWY 36.\n",
+                    "AirportConditions": "RNAV RWY 36 APCH IN USE. LDGT AND DEPG RWY 36.\n",
                     "Notams": "VFR ACFT SAY DIRECTION OF FLT.\n",
                     "ArbitraryText": null,
                     "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
@@ -166,7 +166,7 @@
                 },
                 {
                     "Name": "IMC-SOUTH",
-                    "AirportConditions": "ILS RWY 18 APCH IN USE. LDGT AND DEPTG RWY 18.\n\n\n",
+                    "AirportConditions": "ILS RWY 18 APCH IN USE. LDGT AND DEPG RWY 18.\n\n\n",
                     "Notams": "VFR ACFT SAY DIRECTION OF FLT.\n",
                     "ArbitraryText": null,
                     "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",

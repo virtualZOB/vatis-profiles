@@ -1,7 +1,7 @@
 {
     "Name": "Cleveland TRACON",
     "updateUrl": "https://raw.githubusercontent.com/virtualZOB/vatis-profiles/refs/heads/main/CLE.json",
-    "updateSerial": 2025012200,
+    "updateSerial": 2025040700,
     "Stations": [
         {
             "Id": "026036c3-128d-4626-94cf-81465769111d",
@@ -383,7 +383,7 @@
             "Presets": [
                 {
                     "Name": "VMC-23/32",
-                    "AirportConditions": "VIS APCH RWY 23, RWY 32 IN USE. DEPT RWY 23, RWY 32.",
+                    "AirportConditions": "VISUAL APCH RWY 23, RWY 32 IN USE. DEPT RWY 23, RWY 32.",
                     "Notams": "VFR ACFT SAY DIRECTION OF FLT. READ BACK ALL RWY HS INSTRUCTIONS.",
                     "ArbitraryText": null,
                     "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
@@ -397,7 +397,7 @@
                 },
                 {
                     "Name": "VMC-05/14",
-                    "AirportConditions": "VIS APCH RWY 05, RWY 14 IN USE. DEPT RWY 05, RWY 14.",
+                    "AirportConditions": "VISUAL APCH RWY 05, RWY 14 IN USE. DEPT RWY 05, RWY 14.",
                     "Notams": "VFR ACFT SAY DIRECTION OF FLT. READ BACK ALL RWY HS INSTRUCTIONS.",
                     "ArbitraryText": null,
                     "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
