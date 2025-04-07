@@ -26,7 +26,7 @@
             "Presets": [
                 {
                     "Name": "VISUAL - SOUTH FLOW",
-                    "AirportConditions": "SIMUL VISUAL APCHS RWY 21L, RWY 22R IN USE. DEPG RWY 21R, RWY 22L.",
+                    "AirportConditions": "SIMUL VISUAL RWY 21L, RWY 22R USE Z LOC FREQ 111.95 APCH IN USE. DEPG RWY 21R, RWY 22L.",
                     "Notams": "VFR ACFT SAY DRCTN OF FLT. READBACK ALL RWY HS INSTRUCTIONS. OPER XPNDR ON MODE CHARLIE ON ALL TWYS AND RWYS.",
                     "ArbitraryText": null,
                     "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
@@ -40,7 +40,7 @@
                 },
                 {
                     "Name": "VISUAL - NORTH FLOW",
-                    "AirportConditions": "SIMUL VISUAL APCHS RWY 3R, RWY 4L IN USE. DEPG RWY 3L, RWY 4R. RWY 4R DEPARTURE POINT IS Y2, DISTANCE REMAINING IS 11, THOUSAND, 450, FT, FULL LENGTH AVLB UPON RQST.",
+                    "AirportConditions": "SIMUL VISUAL RWY 3R, RWY 4L USE Z LOC FREQ 111.95 APCH IN USE. DEPG RWY 3L, RWY 4R. RWY 4R DEPARTURE POINT IS Y2, DISTANCE REMAINING IS 11, THOUSAND, 450, FT, FULL LENGTH AVLB UPON RQST.",
                     "Notams": "VFR ACFT SAY DRCTN OF FLT. READBACK ALL RWY HS INSTRUCTIONS. OPER XPNDR ON MODE CHARLIE ON ALL TWYS AND RWYS.",
                     "ArbitraryText": null,
                     "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
@@ -514,6 +514,20 @@
                         "Approaches": null,
                         "Remarks": null
                     }
+                },
+                {
+                    "Name": "RNAV - EAST FLOW",
+                    "AirportConditions": "RNAV Y RWY 5 APCH IN USE. DEPG RWY 5, RWY 32.",
+                    "Notams": "CAUTION BIRD ACTIVITY VICINITY AIRPORT. READBACK ALL RWYS HS INSTRUCTIONS.",
+                    "ArbitraryText": null,
+                    "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
+                    "ExternalGenerator": {
+                        "Url": null,
+                        "Arrival": null,
+                        "Departure": null,
+                        "Approaches": null,
+                        "Remarks": null
+                    }
                 }
             ],
             "AirportConditionDefinitions": [],
@@ -526,7 +540,7 @@
                 },
                 {
                     "Ordinal": 2,
-                    "Text": "WIND SHEAR ADVZYS IN EFCT",
+                    "Text": "WIND SHEAR ADVZYS IN EFFCT",
                     "Enabled": false
                 },
                 {
