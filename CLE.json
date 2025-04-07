@@ -383,7 +383,7 @@
             "Presets": [
                 {
                     "Name": "VMC-23/32",
-                    "AirportConditions": "VIS APCH RWY 23, RWY 32 IN USE. DEPT RWY 23, RWY 32.",
+                    "AirportConditions": "VISUAL APCH RWY 23, RWY 32 IN USE. DEPT RWY 23, RWY 32.",
                     "Notams": "VFR ACFT SAY DIRECTION OF FLT. READ BACK ALL RWY HS INSTRUCTIONS.",
                     "ArbitraryText": null,
                     "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
@@ -397,7 +397,7 @@
                 },
                 {
                     "Name": "VMC-05/14",
-                    "AirportConditions": "VIS APCH RWY 05, RWY 14 IN USE. DEPT RWY 05, RWY 14.",
+                    "AirportConditions": "VISUAL APCH RWY 05, RWY 14 IN USE. DEPT RWY 05, RWY 14.",
                     "Notams": "VFR ACFT SAY DIRECTION OF FLT. READ BACK ALL RWY HS INSTRUCTIONS.",
                     "ArbitraryText": null,
                     "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",

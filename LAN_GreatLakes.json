@@ -303,7 +303,7 @@
             "Presets": [
                 {
                     "Name": "VMC-EAST",
-                    "AirportConditions": "VIS APCH RWY 5 IN USE, DEPTG RWY 5. RWY 14 AVBL ON RQST.",
+                    "AirportConditions": "VISUAL APCH RWY 5 IN USE, DEPG RWY 5. RWY 14 AVBL ON RQST.",
                     "Notams": "VFR ACFT SAY DIRECTION OF FLT. READ BACK ALL RWY HS INSTRUCTION.\n",
                     "ArbitraryText": null,
                     "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
@@ -317,7 +317,7 @@
                 },
                 {
                     "Name": "VMC-WEST",
-                    "AirportConditions": "VIS APCH RWY 23 IN USE, DEPTG RWY 23. RWY 32 AVBL ON RQST.",
+                    "AirportConditions": "VISUAL APCH RWY 23 IN USE, DEPG RWY 23. RWY 32 AVBL ON RQST.",
                     "Notams": "VFR ACFT SAY DIRECTION OF FLT. READ BACK ALL RWY HS INSTRUCTION.\n",
                     "ArbitraryText": null,
                     "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
@@ -331,7 +331,7 @@
                 },
                 {
                     "Name": "IMC-EAST",
-                    "AirportConditions": "ILS RWY 05 APCH IN USE, DEPTG RWY 05. RWY 14 AVBL ON RQST.\n",
+                    "AirportConditions": "ILS RWY 05 APCH IN USE, DEPG RWY 05. RWY 14 AVBL ON RQST.\n",
                     "Notams": "VFR ACFT SAY DIRECTION OF FLT. READ BACK ALL RWY HS INSTRUCTION.\n",
                     "ArbitraryText": null,
                     "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
@@ -345,7 +345,7 @@
                 },
                 {
                     "Name": "IMC-WEST",
-                    "AirportConditions": "ILS RWY 23 APCH IN USE, DEPTG RWY 23. RWY 32 AVBL ON RQST.",
+                    "AirportConditions": "ILS RWY 23 APCH IN USE, DEPG RWY 23. RWY 32 AVBL ON RQST.",
                     "Notams": "VFR ACFT SAY DIRECTION OF FLT. READ BACK ALL RWY HS INSTRUCTION.\n",
                     "ArbitraryText": null,
                     "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
