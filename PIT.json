@@ -1,7 +1,7 @@
 {
     "Name": "Pittsburgh TRACON",
     "updateUrl": "https://raw.githubusercontent.com/virtualZOB/vatis-profiles/refs/heads/main/PIT.json",
-    "updateSerial": 2025040700,
+    "updateSerial": 2025040701,
     "Stations": [
         {
             "Id": "afac1ff5-70e3-4e01-b817-401cdab22f9d",
