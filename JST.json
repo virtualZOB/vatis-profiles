@@ -1,6 +1,6 @@
 {
   "name": "Johnstown RAPCON",
-  "updateUrl": "https://raw.githubusercontent.com/virtualZOB/vatis-profiles/refs/heads/main/LBE.json",
+  "updateUrl": "https://raw.githubusercontent.com/virtualZOB/vatis-profiles/refs/heads/main/JST.json",
   "updateSerial": 2025040701,
   "stations": [
     {
