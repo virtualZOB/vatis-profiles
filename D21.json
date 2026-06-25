@@ -25,9 +25,9 @@
             "IDSEndpoint": "https://clevelandcenter.org/api/scripts/vATIS/post",
             "Presets": [
                 {
-                    "Name": "VISUAL - SOUTH FLOW",
+                    "Name": "VISUAL - DUAL SOUTH FLOW",
                     "AirportConditions": "SIMUL VISUAL RWY 21L, RWY 22R USE Z LOC FREQ 111.95 APCH IN USE. DEPG RWY 21R, RWY 22L.",
-                    "Notams": "VFR ACFT SAY DRCTN OF FLT. READBACK ALL RWY HS INSTRUCTIONS. OPER XPNDR ON MODE CHARLIE ON ALL TWYS AND RWYS.",
+                    "Notams": "READBACK ALL RWY HS INSTRUCTIONS. OPERATE XPNDR ON MODE C ON ALL TWYS AND RWYS. PILOTS USE CTN FOR BIRD ACTIVITY.",
                     "ArbitraryText": null,
                     "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "ExternalGenerator": {
@@ -39,9 +39,9 @@
                     }
                 },
                 {
-                    "Name": "VISUAL - NORTH FLOW",
+                    "Name": "VISUAL - DUAL NORTH FLOW",
                     "AirportConditions": "SIMUL VISUAL RWY 3R, RWY 4L USE Z LOC FREQ 111.95 APCH IN USE. DEPG RWY 3L, RWY 4R. RWY 4R DEPARTURE POINT IS Y2, DISTANCE REMAINING IS 11, THOUSAND, 450, FT, FULL LENGTH AVLB UPON RQST.",
-                    "Notams": "VFR ACFT SAY DRCTN OF FLT. READBACK ALL RWY HS INSTRUCTIONS. OPER XPNDR ON MODE CHARLIE ON ALL TWYS AND RWYS.",
+                    "Notams": "READBACK ALL RWY HS INSTRUCTIONS. OPERATE XPNDR ON MODE C ON ALL TWYS AND RWYS. PILOTS USE CTN FOR BIRD ACTIVITY.",
                     "ArbitraryText": null,
                     "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "ExternalGenerator": {
@@ -55,7 +55,7 @@
                 {
                     "Name": "VISUAL - WEST FLOW",
                     "AirportConditions": "SIMUL VISUAL APCHS RWY 27R AND RWY 27L IN USE. DEPG RWY 27R, RWY 27L.",
-                    "Notams": "VFR ACFT SAY DRCTN OF FLT. READBACK ALL RWY HS INSTRUCTIONS. OPER XPNDR ON MODE CHARLIE ON ALL TWYS AND RWYS.",
+                    "Notams": "READBACK ALL RWY HS INSTRUCTIONS. OPERATE XPNDR ON MODE C ON ALL TWYS AND RWYS. PILOTS USE CTN FOR BIRD ACTIVITY.",
                     "ArbitraryText": null,
                     "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "ExternalGenerator": {
@@ -67,9 +67,37 @@
                     }
                 },
                 {
-                    "Name": "ILS - SOUTH FLOW",
+                    "Name": "VISUAL - TRIPLE SOUTH FLOW",
+                    "AirportConditions": "VISUAL RWY 21L, RWY 22L, RWY 22R USE Y LOC FREQ 111.75 APCH IN USE. RWY 22R Y LOC IS OFFSET 2.5 DEGREES. SIMUL APCHS IN USE. DEPG RWY 21R, RWY 22L.",
+                    "Notams": "READBACK ALL RWY HS INSTRUCTIONS. OPERATE XPNDR ON MODE C ON ALL TWYS AND RWYS. PILOTS USE CTN FOR BIRD ACTIVITY.",
+                    "ArbitraryText": null,
+                    "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+                    "ExternalGenerator": {
+                        "Url": null,
+                        "Arrival": null,
+                        "Departure": null,
+                        "Approaches": null,
+                        "Remarks": null
+                    }
+                },
+                {
+                    "Name": "VISUAL - TRIPLE NORTH FLOW",
+                    "AirportConditions": "VISUAL RWY 03R, RWY 04R, RWY 04L USE Y LOC FREQ 111.75 APCH IN USE. RWY 04L Y LOC IS OFFSET 2.5 DEGREES. SIMUL APCHS IN USE. DEPG RWY 3L, RWY 4R. RWY 4R DEPARTURE POINT IS Y2, DISTANCE REMAINING IS 11, THOUSAND, 450, FT, FULL LENGTH AVLB UPON RQST.",
+                    "Notams": "READBACK ALL RWY HS INSTRUCTIONS. OPERATE XPNDR ON MODE C ON ALL TWYS AND RWYS. PILOTS USE CTN FOR BIRD ACTIVITY.",
+                    "ArbitraryText": null,
+                    "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+                    "ExternalGenerator": {
+                        "Url": null,
+                        "Arrival": null,
+                        "Departure": null,
+                        "Approaches": null,
+                        "Remarks": null
+                    }
+                },
+                {
+                    "Name": "ILS - DUAL SOUTH FLOW",
                     "AirportConditions": "SIMUL ILS Z RWY 22R AND ILS RWY 21L APCHS IN USE. DEPG RWY 21R, RWY 22L.",
-                    "Notams": "VFR ACFT SAY DRCTN OF FLT. READBACK ALL RWY HS INSTRUCTIONS. OPER XPNDR ON MODE CHARLIE ON ALL TWYS AND RWYS.",
+                    "Notams": "READBACK ALL RWY HS INSTRUCTIONS. OPERATE XPNDR ON MODE C ON ALL TWYS AND RWYS. PILOTS USE CTN FOR BIRD ACTIVITY.",
                     "ArbitraryText": null,
                     "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "ExternalGenerator": {
@@ -83,7 +111,7 @@
                 {
                     "Name": "ILS - WEST FLOW",
                     "AirportConditions": "SIMUL ILS RWY 27R AND ILS RWY 27L APCHS IN USE. DEPG RWY 27R, RWY 27L.",
-                    "Notams": "VFR ACFT SAY DRCTN OF FLT. READBACK ALL RWY HS INSTRUCTIONS. OPER XPNDR ON MODE CHARLIE ON ALL TWYS AND RWYS.",
+                    "Notams": "READBACK ALL RWY HS INSTRUCTIONS. OPERATE XPNDR ON MODE C ON ALL TWYS AND RWYS. PILOTS USE CTN FOR BIRD ACTIVITY.",
                     "ArbitraryText": null,
                     "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "ExternalGenerator": {
@@ -95,9 +123,37 @@
                     }
                 },
                 {
-                    "Name": "ILS - NORTH FLOW",
+                    "Name": "ILS - DUAL NORTH FLOW",
                     "AirportConditions": "SIMUL ILS Z RWY 4L AND ILS RWY 3R APCHS IN USE. DEPG RWY 3L, RWY 4R. RWY 4R DEPARTURE POINT IS Y2, DISTANCE REMAINING IS 11, THOUSAND, 450, FT, FULL LENGTH AVLB UPON RQST.",
-                    "Notams": "VFR ACFT SAY DRCTN OF FLT. READBACK ALL RWY HS INSTRUCTIONS. OPER XPNDR ON MODE CHARLIE ON ALL TWYS AND RWYS.",
+                    "Notams": "READBACK ALL RWY HS INSTRUCTIONS. OPERATE XPNDR ON MODE C ON ALL TWYS AND RWYS. PILOTS USE CTN FOR BIRD ACTIVITY.",
+                    "ArbitraryText": null,
+                    "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+                    "ExternalGenerator": {
+                        "Url": null,
+                        "Arrival": null,
+                        "Departure": null,
+                        "Approaches": null,
+                        "Remarks": null
+                    }
+                },
+                {
+                    "Name": "ILS - TRIPLE SOUTH FLOW",
+                    "AirportConditions": "ARR EXP VECTORS ILS RWY 21L, ILS RWY 22L, ILS Y RWY 22R APCH. SIMUL APCHS IN USE. RWY 22R Y LOC IS OFFSET 2.5 DEGREES. ARR ENSURE CORRECT LOC IS TUNED. DEPG RWY 21R, RWY 22L.",
+                    "Notams": "READBACK ALL RWY HS INSTRUCTIONS. OPERATE XPNDR ON MODE C ON ALL TWYS AND RWYS. PILOTS USE CTN FOR BIRD ACTIVITY.",
+                    "ArbitraryText": null,
+                    "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+                    "ExternalGenerator": {
+                        "Url": null,
+                        "Arrival": null,
+                        "Departure": null,
+                        "Approaches": null,
+                        "Remarks": null
+                    }
+                },
+                {
+                    "Name": "ILS - TRIPLE NORTH FLOW",
+                    "AirportConditions": "ARR EXP VECTORS ILS RWY 03R, ILS RWY 04R, ILS Y RWY 04L APCH. SIMUL APCHS IN USE. RWY 04L Y LOC IS OFFSET 2.5 DEGREES. ARR ENSURE CORRECT LOC IS TUNED. DEPG RWY 3L, RWY 4R. RWY 4R DEPARTURE POINT IS Y2, DISTANCE REMAINING IS 11, THOUSAND, 450, FT, FULL LENGTH AVLB UPON RQST.",
+                    "Notams": "READBACK ALL RWY HS INSTRUCTIONS. OPERATE XPNDR ON MODE C ON ALL TWYS AND RWYS. PILOTS USE CTN FOR BIRD ACTIVITY.",
                     "ArbitraryText": null,
                     "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "ExternalGenerator": {

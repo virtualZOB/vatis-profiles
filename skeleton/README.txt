@@ -1,7 +1,6 @@
 How to use:
 1. Ensure you are on vATIS 4.1 or higher.  The latest can be found at https://vatis.app/
 2. Import the files into the vATIS app
-3. Close and reopen vATIS
 
 This will pull down the latest profiles from our repository.  They will be automatically updated each time the facilities team updates them.  
 
