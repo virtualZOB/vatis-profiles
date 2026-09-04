@@ -1,7 +1,7 @@
 {
     "Name": "Detroit TRACON",
     "updateUrl": "https://raw.githubusercontent.com/virtualZOB/vatis-profiles/refs/heads/main/D21.json",
-    "updateSerial": 2026090401,
+    "updateSerial": 2026090404,
     "Stations": [
         {
             "Id": "e9636d3c-f218-4ed9-ae06-c7d47a03e747",
@@ -478,7 +478,7 @@
                 },
                 {
                     "Name": "VISUAL-WEST",
-                    "AirportConditions": "VISUAL APP RWY 27L, 27R IN USE. DEPG RWY 9L AND 9R.",
+                    "AirportConditions": "VISUAL APP RWY 27L, 27R IN USE. DEPG RWY 27L AND 27R.",
                     "Notams": "VFR ACFT SAY DRCTN OF FLT. READ BACK ALL RWY HS INSTRUCTION.\n",
                     "ArbitraryText": null,
                     "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
