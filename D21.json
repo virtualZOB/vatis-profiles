@@ -362,7 +362,7 @@
                 {
                     "Name": "VISUAL WEST",
                     "AirportConditions": "VISUAL APP RWY 24 IN USE. DEPG RWY 24.",
-                    "Notams": "VFR ACFT SAY DRCTN OF FLT. READ BACK ALL RWY HS INSTRUCTIONS.",
+                    "Notams": "MODE C REQUIRED ON ALL MOVEMENT AREAS. VFR ACFT SAY DRCTN OF FLT. READ BACK ALL RWY HS INSTRUCTIONS.",
                     "ArbitraryText": null,
                     "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
                     "ExternalGenerator": {
@@ -376,7 +376,7 @@
                 {
                     "Name": "VISUAL EAST",
                     "AirportConditions": "VISUAL APP RWY 06 IN USE. DEPG RWY 06.",
-                    "Notams": "VFR ACFT SAY DRCTN OF FLT. READ BACK ALL RWY HS INSTRUCTIONS.",
+                    "Notams": "MODE C REQUIRED ON ALL MOVEMENT AREAS. VFR ACFT SAY DRCTN OF FLT. READ BACK ALL RWY HS INSTRUCTIONS.",
                     "ArbitraryText": null,
                     "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
                     "ExternalGenerator": {
@@ -390,7 +390,7 @@
                 {
                     "Name": "IMC WEST",
                     "AirportConditions": "RNAV GPS APP RWY 24 IN USE. DEPG RWY 24.",
-                    "Notams": "VFR ACFT SAY DRCTN OF FLT. READ BACK ALL RWY HS INSTRUCTIONS.",
+                    "Notams": "MODE C REQUIRED ON ALL MOVEMENT AREAS. VFR ACFT SAY DRCTN OF FLT. READ BACK ALL RWY HS INSTRUCTIONS.",
                     "ArbitraryText": null,
                     "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
                     "ExternalGenerator": {
@@ -404,7 +404,7 @@
                 {
                     "Name": "IMC EAST",
                     "AirportConditions": "RNAV GPS APP RWY 06 IN USE. DEPG RWY 06.",
-                    "Notams": "VFR ACFT SAY DRCTN OF FLT. READ BACK ALL RWY HS INSTRUCTIONS.",
+                    "Notams": "MODE C REQUIRED ON ALL MOVEMENT AREAS. VFR ACFT SAY DRCTN OF FLT. READ BACK ALL RWY HS INSTRUCTIONS.",
                     "ArbitraryText": null,
                     "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
                     "ExternalGenerator": {
