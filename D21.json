@@ -478,7 +478,7 @@
                 },
                 {
                     "Name": "VISUAL-WEST",
-                    "AirportConditions": "VISUAL APP RWY 27L, 27R IN USE. DEPG RWY 9L AND 9R.",
+                    "AirportConditions": "VISUAL APP RWY 27L, 27R IN USE. DEPG RWY 27L AND 27R.",
                     "Notams": "VFR ACFT SAY DRCTN OF FLT. READ BACK ALL RWY HS INSTRUCTION.\n",
                     "ArbitraryText": null,
                     "Template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]. [NOTAMS].",
