@@ -158,7 +158,7 @@
             "Presets": [
                 {
                     "Name": "IMC - 28 FLOW",
-                    "AirportConditions": "ILS Z RWY 28R APCH IN USE. DEPG RWY 28R.",
+                    "AirportConditions": "ILS Z RWY 28 APCH IN USE. DEPG RWY 28.",
                     "Notams": "READBACK ALL RWY HS INSTRUCTIONS.",
                     "ArbitraryText": null,
                     "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
@@ -172,7 +172,7 @@
                 },
                 {
                     "Name": "IMC - 10 FLOW",
-                    "AirportConditions": "RNAV RWY 10L APCH IN USE. DEPG RWY 6, RWY 10L.",
+                    "AirportConditions": "RNAV RWY 10 APCH IN USE. DEPG RWY 6, RWY 10.",
                     "Notams": "READBACK ALL RWY HS INSTRUCTIONS.",
                     "ArbitraryText": null,
                     "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
@@ -186,7 +186,7 @@
                 },
                 {
                     "Name": "VMC - 28 FLOW",
-                    "AirportConditions": "VISUAL APCH RWY 28R IN USE. DEPG RWY 28R.",
+                    "AirportConditions": "VISUAL APCH RWY 28 IN USE. DEPG RWY 28.",
                     "Notams": "READBACK ALL RWY HS INSTRUCTIONS.",
                     "ArbitraryText": null,
                     "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
@@ -200,8 +200,8 @@
                 },
                 {
                     "Name": "VMC - 10 FLOW",
-                    "AirportConditions": "VISUAL APCH RWY 10L IN USE. DEPG RWY 6, RWY 10L.",
-                    "Notams": "RWY 28L/10R CLSD INDEFINITELY. READBACK ALL RWY HS INSTRUCTIONS.",
+                    "AirportConditions": "VISUAL APCH RWY 10 IN USE. DEPG RWY 6, RWY 10.",
+                    "Notams": "READBACK ALL RWY HS INSTRUCTIONS.",
                     "ArbitraryText": null,
                     "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "ExternalGenerator": {
@@ -218,21 +218,16 @@
             "NotamDefinitions": [
                 {
                     "Ordinal": 1,
-                    "Text": "RY 10L/28R CLSD",
+                    "Text": "RY 10/28 CLSD",
                     "Enabled": false
                 },
                 {
                     "Ordinal": 2,
-                    "Text": "RY 10R/28L CLSD",
-                    "Enabled": false
-                },
-                {
-                    "Ordinal": 3,
                     "Text": "RY 06/24 CLSD",
                     "Enabled": false
                 },
                 {
-                    "Ordinal": 4,
+                    "Ordinal": 3,
                     "Text": "WIND SHEAR ADVZYS IN EFCT",
                     "Enabled": false
                 }
