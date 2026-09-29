@@ -1,7 +1,7 @@
 {
     "Name": "Detroit TRACON",
     "updateUrl": "https://raw.githubusercontent.com/virtualZOB/vatis-profiles/refs/heads/main/D21.json",
-    "updateSerial": 2026092201,
+    "updateSerial": 2026092901,
     "Stations": [
         {
             "Id": "e9636d3c-f218-4ed9-ae06-c7d47a03e747",
@@ -630,6 +630,308 @@
             "AirportConditionDefinitions": [],
             "AirportConditionsBeforeFreeText": false,
             "NotamDefinitions": [],
+            "NotamsBeforeFreeText": false,
+            "TransitionLevels": [],
+            "UseFaaFormat": true,
+            "UseExternalAtisGenerator": false,
+            "UseNotamPrefix": true,
+            "UseTransitionLevelPrefix": false,
+            "UseMetricUnits": false,
+            "UseSurfaceWindPrefix": false,
+            "UseVisibilitySuffix": false,
+            "UseDecimalTerminology": false
+        },
+        {
+            "Id": "b7c1f0a4-5d2e-4a36-9e18-3c4f8a6d21b5",
+            "Name": "Selfridge",
+            "Identifier": "KMTC",
+            "AtisType": 0,
+            "Contractions": [
+                {
+                    "String": "ACFT",
+                    "Spoken": "AIRCRAFT"
+                },
+                {
+                    "String": "ADVZYS",
+                    "Spoken": "ADVISORIES"
+                },
+                {
+                    "String": "APCH",
+                    "Spoken": "APPROACH"
+                },
+                {
+                    "String": "ARPT",
+                    "Spoken": "AIRPORT"
+                },
+                {
+                    "String": "AVBL",
+                    "Spoken": "AVAILABLE"
+                },
+                {
+                    "String": "CLSD",
+                    "Spoken": "CLOSED"
+                },
+                {
+                    "String": "CTC",
+                    "Spoken": "CONTACT"
+                },
+                {
+                    "String": "CTN",
+                    "Spoken": "CAUTION"
+                },
+                {
+                    "String": "DEP",
+                    "Spoken": "DEPARTURE"
+                },
+                {
+                    "String": "DEPG",
+                    "Spoken": "DEPARTING"
+                },
+                {
+                    "String": "EFCT",
+                    "Spoken": "EFFECT"
+                },
+                {
+                    "String": "FREQ",
+                    "Spoken": "FREQUENCY"
+                },
+                {
+                    "String": "HAZD",
+                    "Spoken": "HAZARDOUS"
+                },
+                {
+                    "String": "HS",
+                    "Spoken": "HOLD SHORT"
+                },
+                {
+                    "String": "LDG",
+                    "Spoken": "LANDING"
+                },
+                {
+                    "String": "OPS",
+                    "Spoken": "OPERATIONS"
+                },
+                {
+                    "String": "PPR",
+                    "Spoken": "PRIOR PERMISSION REQUIRED"
+                },
+                {
+                    "String": "RNAV",
+                    "Spoken": "AR NAV"
+                },
+                {
+                    "String": "RQRD",
+                    "Spoken": "REQUIRED"
+                },
+                {
+                    "String": "RQST",
+                    "Spoken": "REQUEST"
+                },
+                {
+                    "String": "RWY",
+                    "Spoken": "RUNWAY"
+                },
+                {
+                    "String": "RY",
+                    "Spoken": "RUNWAY"
+                },
+                {
+                    "String": "TACAN",
+                    "Spoken": "TACK-AN"
+                },
+                {
+                    "String": "WX",
+                    "Spoken": "WEATHER"
+                }
+            ],
+            "AtisFrequency": 25325,
+            "ObservationTime": {
+                "Enabled": false,
+                "Time": 0
+            },
+            "MagneticVariation": {
+                "Enabled": true,
+                "MagneticDegrees": 8
+            },
+            "AtisVoice": {
+                "UseTextToSpeech": true,
+                "Voice": "Default"
+            },
+            "IDSEndpoint": "https://clevelandcenter.org/api/scripts/vATIS/post",
+            "Presets": [
+                {
+                    "Name": "ILS - RWY 01",
+                    "AirportConditions": "ILS RWY 01 APCH IN USE. LDG AND DEPG RWY 01.",
+                    "Notams": "READBACK ALL RWY HS INSTRUCTIONS.",
+                    "ArbitraryText": null,
+                    "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+                    "ExternalGenerator": {
+                        "Url": null,
+                        "Arrival": null,
+                        "Departure": null,
+                        "Approaches": null,
+                        "Remarks": null
+                    }
+                },
+                {
+                    "Name": "ILS - RWY 19",
+                    "AirportConditions": "ILS RWY 19 APCH IN USE. LDG AND DEPG RWY 19.",
+                    "Notams": "READBACK ALL RWY HS INSTRUCTIONS.",
+                    "ArbitraryText": null,
+                    "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+                    "ExternalGenerator": {
+                        "Url": null,
+                        "Arrival": null,
+                        "Departure": null,
+                        "Approaches": null,
+                        "Remarks": null
+                    }
+                },
+                {
+                    "Name": "TACAN - RWY 01",
+                    "AirportConditions": "TACAN RWY 01 APCH IN USE. LDG AND DEPG RWY 01.",
+                    "Notams": "READBACK ALL RWY HS INSTRUCTIONS.",
+                    "ArbitraryText": null,
+                    "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+                    "ExternalGenerator": {
+                        "Url": null,
+                        "Arrival": null,
+                        "Departure": null,
+                        "Approaches": null,
+                        "Remarks": null
+                    }
+                },
+                {
+                    "Name": "TACAN - RWY 19",
+                    "AirportConditions": "TACAN RWY 19 APCH IN USE. LDG AND DEPG RWY 19.",
+                    "Notams": "READBACK ALL RWY HS INSTRUCTIONS.",
+                    "ArbitraryText": null,
+                    "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+                    "ExternalGenerator": {
+                        "Url": null,
+                        "Arrival": null,
+                        "Departure": null,
+                        "Approaches": null,
+                        "Remarks": null
+                    }
+                },
+                {
+                    "Name": "RNAV - RWY 01",
+                    "AirportConditions": "RNAV RWY 01 APCH IN USE. LDG AND DEPG RWY 01.",
+                    "Notams": "READBACK ALL RWY HS INSTRUCTIONS.",
+                    "ArbitraryText": null,
+                    "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+                    "ExternalGenerator": {
+                        "Url": null,
+                        "Arrival": null,
+                        "Departure": null,
+                        "Approaches": null,
+                        "Remarks": null
+                    }
+                },
+                {
+                    "Name": "RNAV - RWY 19",
+                    "AirportConditions": "RNAV RWY 19 APCH IN USE. LDG AND DEPG RWY 19.",
+                    "Notams": "READBACK ALL RWY HS INSTRUCTIONS.",
+                    "ArbitraryText": null,
+                    "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+                    "ExternalGenerator": {
+                        "Url": null,
+                        "Arrival": null,
+                        "Departure": null,
+                        "Approaches": null,
+                        "Remarks": null
+                    }
+                },
+                {
+                    "Name": "VMC - RWY 01",
+                    "AirportConditions": "VISUAL APCH RWY 01 IN USE. LDG AND DEPG RWY 01.",
+                    "Notams": "READBACK ALL RWY HS INSTRUCTIONS.",
+                    "ArbitraryText": null,
+                    "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+                    "ExternalGenerator": {
+                        "Url": null,
+                        "Arrival": null,
+                        "Departure": null,
+                        "Approaches": null,
+                        "Remarks": null
+                    }
+                },
+                {
+                    "Name": "VMC - RWY 19",
+                    "AirportConditions": "VISUAL APCH RWY 19 IN USE. LDG AND DEPG RWY 19.",
+                    "Notams": "READBACK ALL RWY HS INSTRUCTIONS.",
+                    "ArbitraryText": null,
+                    "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+                    "ExternalGenerator": {
+                        "Url": null,
+                        "Arrival": null,
+                        "Departure": null,
+                        "Approaches": null,
+                        "Remarks": null
+                    }
+                }
+            ],
+            "AirportConditionDefinitions": [
+                {
+                    "Ordinal": 1,
+                    "Text": "BIRD WATCH CONDITION LOW",
+                    "Enabled": true
+                },
+                {
+                    "Ordinal": 2,
+                    "Text": "BIRD WATCH CONDITION MODERATE",
+                    "Enabled": false
+                },
+                {
+                    "Ordinal": 3,
+                    "Text": "BIRD WATCH CONDITION SEVERE",
+                    "Enabled": false
+                },
+                {
+                    "Ordinal": 4,
+                    "Text": "ARRESTING GEAR APCH AND DEP END BAK-12 RIGGED",
+                    "Enabled": false
+                },
+                {
+                    "Ordinal": 5,
+                    "Text": "ARRESTING GEAR APCH END BAK-12 DERIGGED",
+                    "Enabled": false
+                },
+                {
+                    "Ordinal": 6,
+                    "Text": "ARRESTING GEAR DEP END BAK-12 DERIGGED",
+                    "Enabled": false
+                }
+            ],
+            "AirportConditionsBeforeFreeText": false,
+            "NotamDefinitions": [
+                {
+                    "Ordinal": 1,
+                    "Text": "HAZD WX INFO FOR DTX AREA AVBL ATC FREQ BY RQST",
+                    "Enabled": false
+                },
+                {
+                    "Ordinal": 2,
+                    "Text": "WIND SHEAR ADVZYS IN EFCT",
+                    "Enabled": false
+                },
+                {
+                    "Ordinal": 3,
+                    "Text": "RY 01/19 CLSD",
+                    "Enabled": false
+                },
+                {
+                    "Ordinal": 4,
+                    "Text": "TRANSIENT ACFT PPR RQRD, CTC BASE OPS",
+                    "Enabled": false
+                },
+                {
+                    "Ordinal": 5,
+                    "Text": "CTN BIRD ACTIVITY VICINITY ARPT",
+                    "Enabled": false
+                }
+            ],
             "NotamsBeforeFreeText": false,
             "TransitionLevels": [],
             "UseFaaFormat": true,
