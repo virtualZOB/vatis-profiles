@@ -1,7 +1,7 @@
 {
     "Name": "Detroit TRACON",
     "updateUrl": "https://raw.githubusercontent.com/virtualZOB/vatis-profiles/refs/heads/main/D21.json",
-    "updateSerial": 2026092901,
+    "updateSerial": 2026092902,
     "Stations": [
         {
             "Id": "e9636d3c-f218-4ed9-ae06-c7d47a03e747",
@@ -656,6 +656,10 @@
                     "Spoken": "ADVISORIES"
                 },
                 {
+                    "String": "AFLD",
+                    "Spoken": "AIRFIELD"
+                },
+                {
                     "String": "APCH",
                     "Spoken": "APPROACH"
                 },
@@ -708,6 +712,10 @@
                     "Spoken": "LANDING"
                 },
                 {
+                    "String": "MGMT",
+                    "Spoken": "MANAGEMENT"
+                },
+                {
                     "String": "OPS",
                     "Spoken": "OPERATIONS"
                 },
@@ -738,6 +746,14 @@
                 {
                     "String": "TACAN",
                     "Spoken": "TACK-AN"
+                },
+                {
+                    "String": "UNLGTD",
+                    "Spoken": "UNLIGHTED"
+                },
+                {
+                    "String": "USCG",
+                    "Spoken": "COAST GUARD"
                 },
                 {
                     "String": "WX",
@@ -872,38 +888,7 @@
                     }
                 }
             ],
-            "AirportConditionDefinitions": [
-                {
-                    "Ordinal": 1,
-                    "Text": "BIRD WATCH CONDITION LOW",
-                    "Enabled": true
-                },
-                {
-                    "Ordinal": 2,
-                    "Text": "BIRD WATCH CONDITION MODERATE",
-                    "Enabled": false
-                },
-                {
-                    "Ordinal": 3,
-                    "Text": "BIRD WATCH CONDITION SEVERE",
-                    "Enabled": false
-                },
-                {
-                    "Ordinal": 4,
-                    "Text": "ARRESTING GEAR APCH AND DEP END BAK-12 RIGGED",
-                    "Enabled": false
-                },
-                {
-                    "Ordinal": 5,
-                    "Text": "ARRESTING GEAR APCH END BAK-12 DERIGGED",
-                    "Enabled": false
-                },
-                {
-                    "Ordinal": 6,
-                    "Text": "ARRESTING GEAR DEP END BAK-12 DERIGGED",
-                    "Enabled": false
-                }
-            ],
+            "AirportConditionDefinitions": [],
             "AirportConditionsBeforeFreeText": false,
             "NotamDefinitions": [
                 {
@@ -923,12 +908,17 @@
                 },
                 {
                     "Ordinal": 4,
-                    "Text": "TRANSIENT ACFT PPR RQRD, CTC BASE OPS",
+                    "Text": "TRANSIENT ACFT PPR, CTC AFLD MGMT",
                     "Enabled": false
                 },
                 {
                     "Ordinal": 5,
                     "Text": "CTN BIRD ACTIVITY VICINITY ARPT",
+                    "Enabled": false
+                },
+                {
+                    "Ordinal": 6,
+                    "Text": "EAST RAMP AND USCG WIND CONES UNLGTD, DAY USE ONLY",
                     "Enabled": false
                 }
             ],
