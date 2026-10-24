@@ -1,7 +1,7 @@
 {
     "name": "Cleveland TRACON",
     "updateUrl": "https://raw.githubusercontent.com/virtualZOB/vatis-profiles/refs/heads/main/CLE.json",
-    "updateSerial": 2026101600,
+    "updateSerial": 2026102400,
     "stations": [
         {
             "id": "026036c3-128d-4626-94cf-81465769111d",
