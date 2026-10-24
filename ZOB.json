@@ -352,43 +352,7 @@
                     "voice": "TRANSPONDER"
                 }
             ],
-            "airportConditionDefinitions": [
-                {
-                    "text": "CLEARANCE DELIVERY ON FREQ 120.65.",
-                    "ordinal": 1,
-                    "stationCondition": "WhenOnline",
-                    "stationCallsigns": "DTW_DEL",
-                    "enabled": true
-                },
-                {
-                    "text": "GROUND CONTROL ON FREQ 121.8.",
-                    "ordinal": 2,
-                    "stationCondition": "WhenOnline",
-                    "stationCallsigns": "DTW_NW_GND",
-                    "enabled": true
-                },
-                {
-                    "text": "GROUND CONTROL NORTHEAST ON FREQ 119.45.",
-                    "ordinal": 3,
-                    "stationCondition": "WhenOnline",
-                    "stationCallsigns": "DTW_NE_GND",
-                    "enabled": true
-                },
-                {
-                    "text": "GROUND CONTROL SOUTHEAST ON FREQ 119.25.",
-                    "ordinal": 4,
-                    "stationCondition": "WhenOnline",
-                    "stationCallsigns": "DTW_SE_GND",
-                    "enabled": true
-                },
-                {
-                    "text": "GROUND CONTROL SOUTHWEST ON FREQ 132.725.",
-                    "ordinal": 5,
-                    "stationCondition": "WhenOnline",
-                    "stationCallsigns": "DTW_SW_GND",
-                    "enabled": true
-                }
-            ],
+            "airportConditionDefinitions": [],
             "notamDefinitions": [
                 {
                     "text": "VFR ACFT SAY DRCTN OF FLT.",
@@ -803,22 +767,7 @@
                     "voice": "TRANSPONDER"
                 }
             ],
-            "airportConditionDefinitions": [
-                {
-                    "text": "CLEARANCE DELIVERY ON FREQ 125.05.",
-                    "ordinal": 1,
-                    "stationCondition": "WhenOnline",
-                    "stationCallsigns": "CLE_DEL",
-                    "enabled": true
-                },
-                {
-                    "text": "GROUND CONTROL ON FREQ 121.7.",
-                    "ordinal": 2,
-                    "stationCondition": "WhenOnline",
-                    "stationCallsigns": "CLE_GND",
-                    "enabled": true
-                }
-            ],
+            "airportConditionDefinitions": [],
             "notamDefinitions": [
                 {
                     "text": "OPERATE XPNDR IN ALTITUDE REPORTING MODE ON ALL TWYS AND RWYS.",
@@ -1174,29 +1123,7 @@
                     "voice": "TRANSPONDER"
                 }
             ],
-            "airportConditionDefinitions": [
-                {
-                    "text": "CLEARANCE DELIVERY ON FREQ 126.75.",
-                    "ordinal": 1,
-                    "stationCondition": "WhenOnline",
-                    "stationCallsigns": "PIT_DEL",
-                    "enabled": true
-                },
-                {
-                    "text": "GROUND CONTROL ON FREQ 121.9.",
-                    "ordinal": 2,
-                    "stationCondition": "WhenOnline",
-                    "stationCallsigns": "PIT_S_GND",
-                    "enabled": true
-                },
-                {
-                    "text": "GROUND CONTROL NORTH ON FREQ 127.8.",
-                    "ordinal": 3,
-                    "stationCondition": "WhenOnline",
-                    "stationCallsigns": "PIT_N_GND",
-                    "enabled": true
-                }
-            ],
+            "airportConditionDefinitions": [],
             "notamDefinitions": [
                 {
                     "text": "OPERATE XPNDR IN ALTITUDE REPORTING MODE ON ALL TWYS AND RWYS.",
@@ -1596,22 +1523,7 @@
                     "voice": "TRANSPONDER"
                 }
             ],
-            "airportConditionDefinitions": [
-                {
-                    "text": "CLEARANCE DELIVERY ON FREQ 124.7.",
-                    "ordinal": 1,
-                    "stationCondition": "WhenOnline",
-                    "stationCallsigns": "BUF_DEL",
-                    "enabled": true
-                },
-                {
-                    "text": "GROUND CONTROL ON FREQ 133.2.",
-                    "ordinal": 2,
-                    "stationCondition": "WhenOnline",
-                    "stationCallsigns": "BUF_GND",
-                    "enabled": true
-                }
-            ],
+            "airportConditionDefinitions": [],
             "notamDefinitions": [
                 {
                     "text": "CAUTION BIRD ACTIVITY VICINITY AIRPORT.",

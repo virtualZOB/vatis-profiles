@@ -352,22 +352,7 @@
                     "voice": "TRANSPONDER"
                 }
             ],
-            "airportConditionDefinitions": [
-                {
-                    "text": "CLEARANCE DELIVERY ON FREQ 124.7.",
-                    "ordinal": 1,
-                    "stationCondition": "WhenOnline",
-                    "stationCallsigns": "BUF_DEL",
-                    "enabled": true
-                },
-                {
-                    "text": "GROUND CONTROL ON FREQ 133.2.",
-                    "ordinal": 2,
-                    "stationCondition": "WhenOnline",
-                    "stationCallsigns": "BUF_GND",
-                    "enabled": true
-                }
-            ],
+            "airportConditionDefinitions": [],
             "notamDefinitions": [
                 {
                     "text": "CAUTION BIRD ACTIVITY VICINITY AIRPORT.",
