@@ -1,7 +1,7 @@
 {
     "name": "Detroit TRACON",
     "updateUrl": "https://raw.githubusercontent.com/virtualZOB/vatis-profiles/refs/heads/main/D21.json",
-    "updateSerial": 2026102400,
+    "updateSerial": 2026102401,
     "stations": [
         {
             "id": "e9636d3c-f218-4ed9-ae06-c7d47a03e747",
@@ -420,43 +420,7 @@
                     "voice": "TRANSPONDER"
                 }
             ],
-            "airportConditionDefinitions": [
-                {
-                    "text": "CLEARANCE DELIVERY ON FREQ 120.65.",
-                    "ordinal": 1,
-                    "stationCondition": "WhenOnline",
-                    "stationCallsigns": "DTW_DEL",
-                    "enabled": true
-                },
-                {
-                    "text": "GROUND CONTROL ON FREQ 121.8.",
-                    "ordinal": 2,
-                    "stationCondition": "WhenOnline",
-                    "stationCallsigns": "DTW_NW_GND",
-                    "enabled": true
-                },
-                {
-                    "text": "GROUND CONTROL NORTHEAST ON FREQ 119.45.",
-                    "ordinal": 3,
-                    "stationCondition": "WhenOnline",
-                    "stationCallsigns": "DTW_NE_GND",
-                    "enabled": true
-                },
-                {
-                    "text": "GROUND CONTROL SOUTHEAST ON FREQ 119.25.",
-                    "ordinal": 4,
-                    "stationCondition": "WhenOnline",
-                    "stationCallsigns": "DTW_SE_GND",
-                    "enabled": true
-                },
-                {
-                    "text": "GROUND CONTROL SOUTHWEST ON FREQ 132.725.",
-                    "ordinal": 5,
-                    "stationCondition": "WhenOnline",
-                    "stationCallsigns": "DTW_SW_GND",
-                    "enabled": true
-                }
-            ],
+            "airportConditionDefinitions": [],
             "notamDefinitions": [
                 {
                     "text": "READBACK ALL RWY HS INSTRUCTIONS.",
@@ -1483,43 +1447,7 @@
                     "voice": "TRANSPONDER"
                 }
             ],
-            "airportConditionDefinitions": [
-                {
-                    "text": "CLEARANCE DELIVERY ON FREQ 120.65.",
-                    "ordinal": 1,
-                    "stationCondition": "WhenOnline",
-                    "stationCallsigns": "DTW_DEL",
-                    "enabled": true
-                },
-                {
-                    "text": "GROUND CONTROL ON FREQ 121.8.",
-                    "ordinal": 2,
-                    "stationCondition": "WhenOnline",
-                    "stationCallsigns": "DTW_NW_GND",
-                    "enabled": true
-                },
-                {
-                    "text": "GROUND CONTROL NORTHEAST ON FREQ 119.45.",
-                    "ordinal": 3,
-                    "stationCondition": "WhenOnline",
-                    "stationCallsigns": "DTW_NE_GND",
-                    "enabled": true
-                },
-                {
-                    "text": "GROUND CONTROL SOUTHEAST ON FREQ 119.25.",
-                    "ordinal": 4,
-                    "stationCondition": "WhenOnline",
-                    "stationCallsigns": "DTW_SE_GND",
-                    "enabled": true
-                },
-                {
-                    "text": "GROUND CONTROL SOUTHWEST ON FREQ 132.725.",
-                    "ordinal": 5,
-                    "stationCondition": "WhenOnline",
-                    "stationCallsigns": "DTW_SW_GND",
-                    "enabled": true
-                }
-            ],
+            "airportConditionDefinitions": [],
             "notamDefinitions": [
                 {
                     "text": "READBACK ALL RWY HS INSTRUCTIONS.",

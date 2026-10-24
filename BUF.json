@@ -1,7 +1,7 @@
 {
     "name": "Buffalo TRACON",
     "updateUrl": "https://raw.githubusercontent.com/virtualZOB/vatis-profiles/refs/heads/main/BUF.json",
-    "updateSerial": 2026102400,
+    "updateSerial": 2026102401,
     "stations": [
         {
             "id": "26484947-a5b5-47e2-816a-9283ad1917c1",
@@ -352,22 +352,7 @@
                     "voice": "TRANSPONDER"
                 }
             ],
-            "airportConditionDefinitions": [
-                {
-                    "text": "CLEARANCE DELIVERY ON FREQ 124.7.",
-                    "ordinal": 1,
-                    "stationCondition": "WhenOnline",
-                    "stationCallsigns": "BUF_DEL",
-                    "enabled": true
-                },
-                {
-                    "text": "GROUND CONTROL ON FREQ 133.2.",
-                    "ordinal": 2,
-                    "stationCondition": "WhenOnline",
-                    "stationCallsigns": "BUF_GND",
-                    "enabled": true
-                }
-            ],
+            "airportConditionDefinitions": [],
             "notamDefinitions": [
                 {
                     "text": "CAUTION BIRD ACTIVITY VICINITY AIRPORT.",

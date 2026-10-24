@@ -1,7 +1,7 @@
 {
     "name": "Pittsburgh TRACON",
     "updateUrl": "https://raw.githubusercontent.com/virtualZOB/vatis-profiles/refs/heads/main/PIT.json",
-    "updateSerial": 2026102400,
+    "updateSerial": 2026102401,
     "stations": [
         {
             "id": "afac1ff5-70e3-4e01-b817-401cdab22f9d",
@@ -318,29 +318,7 @@
                     "voice": "TRANSPONDER"
                 }
             ],
-            "airportConditionDefinitions": [
-                {
-                    "text": "CLEARANCE DELIVERY ON FREQ 126.75.",
-                    "ordinal": 1,
-                    "stationCondition": "WhenOnline",
-                    "stationCallsigns": "PIT_DEL",
-                    "enabled": true
-                },
-                {
-                    "text": "GROUND CONTROL ON FREQ 121.9.",
-                    "ordinal": 2,
-                    "stationCondition": "WhenOnline",
-                    "stationCallsigns": "PIT_S_GND",
-                    "enabled": true
-                },
-                {
-                    "text": "GROUND CONTROL NORTH ON FREQ 127.8.",
-                    "ordinal": 3,
-                    "stationCondition": "WhenOnline",
-                    "stationCallsigns": "PIT_N_GND",
-                    "enabled": true
-                }
-            ],
+            "airportConditionDefinitions": [],
             "notamDefinitions": [
                 {
                     "text": "OPERATE XPNDR IN ALTITUDE REPORTING MODE ON ALL TWYS AND RWYS.",
@@ -1128,29 +1106,7 @@
                     "voice": "TRANSPONDER"
                 }
             ],
-            "airportConditionDefinitions": [
-                {
-                    "text": "CLEARANCE DELIVERY ON FREQ 126.75.",
-                    "ordinal": 1,
-                    "stationCondition": "WhenOnline",
-                    "stationCallsigns": "PIT_DEL",
-                    "enabled": true
-                },
-                {
-                    "text": "GROUND CONTROL ON FREQ 121.9.",
-                    "ordinal": 2,
-                    "stationCondition": "WhenOnline",
-                    "stationCallsigns": "PIT_S_GND",
-                    "enabled": true
-                },
-                {
-                    "text": "GROUND CONTROL NORTH ON FREQ 127.8.",
-                    "ordinal": 3,
-                    "stationCondition": "WhenOnline",
-                    "stationCallsigns": "PIT_N_GND",
-                    "enabled": true
-                }
-            ],
+            "airportConditionDefinitions": [],
             "notamDefinitions": [
                 {
                     "text": "OPERATE XPNDR IN ALTITUDE REPORTING MODE ON ALL TWYS AND RWYS.",
