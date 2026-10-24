@@ -419,8 +419,921 @@
             ]
         },
         {
-            "id": "9bc9b9e2-74a4-4ec0-b49f-0da84756977e",
+            "id": "c76da6dc-94aa-5151-a7c6-1cfa268dde80",
             "ordinal": 1,
+            "identifier": "KDTW",
+            "name": "Detroit Metropolitan",
+            "atisType": "Arrival",
+            "codeRange": {
+                "low": "A",
+                "high": "Z"
+            },
+            "atisFormat": {
+                "observationTime": {
+                    "standardUpdateTime": [
+                        53
+                    ]
+                },
+                "surfaceWind": {
+                    "magneticVariation": {
+                        "enabled": true,
+                        "magneticDegrees": 10
+                    }
+                }
+            },
+            "notamsBeforeFreeText": false,
+            "airportConditionsBeforeFreeText": false,
+            "frequency": 133675000,
+            "idsEndpoint": "https://clevelandcenter.org/api/scripts/vATIS/post",
+            "useDecimalTerminology": false,
+            "atisVoice": {
+                "useTextToSpeech": true,
+                "voice": "Default",
+                "speechRate": 180
+            },
+            "presets": [
+                {
+                    "id": "8fce89a4-a0e4-5910-9d0c-4acb775a432c",
+                    "ordinal": 0,
+                    "name": "VISUAL - SOUTH FLOW",
+                    "airportConditions": "SIMUL VISUAL RWY 21L, RWY 22R USE Z LOC FREQ 111.95 APCH IN USE.",
+                    "notams": "",
+                    "template": "[FACILITY] ARRIVAL INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+                    "externalGenerator": {
+                        "enabled": false,
+                        "textUrl": "",
+                        "voiceUrl": "",
+                        "arrival": "",
+                        "departure": "",
+                        "approaches": "",
+                        "remarks": ""
+                    }
+                },
+                {
+                    "id": "f5b2b534-b71f-5042-b47b-bbc0399037a5",
+                    "ordinal": 1,
+                    "name": "VISUAL - NORTH FLOW",
+                    "airportConditions": "SIMUL VISUAL RWY 3R, RWY 4L USE Z LOC FREQ 111.95 APCH IN USE.",
+                    "notams": "",
+                    "template": "[FACILITY] ARRIVAL INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+                    "externalGenerator": {
+                        "enabled": false,
+                        "textUrl": "",
+                        "voiceUrl": "",
+                        "arrival": "",
+                        "departure": "",
+                        "approaches": "",
+                        "remarks": ""
+                    }
+                },
+                {
+                    "id": "d00faba5-b3c5-5750-8eb8-77907662dfbe",
+                    "ordinal": 2,
+                    "name": "VISUAL - WEST FLOW",
+                    "airportConditions": "SIMUL VISUAL APCHS RWY 27R AND RWY 27L IN USE.",
+                    "notams": "",
+                    "template": "[FACILITY] ARRIVAL INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+                    "externalGenerator": {
+                        "enabled": false,
+                        "textUrl": "",
+                        "voiceUrl": "",
+                        "arrival": "",
+                        "departure": "",
+                        "approaches": "",
+                        "remarks": ""
+                    }
+                },
+                {
+                    "id": "625fa458-6536-5592-bf9a-94404d58c3bf",
+                    "ordinal": 3,
+                    "name": "ILS - SOUTH FLOW",
+                    "airportConditions": "SIMUL ILS Z RWY 22R AND ILS RWY 21L APCHS IN USE.",
+                    "notams": "",
+                    "template": "[FACILITY] ARRIVAL INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+                    "externalGenerator": {
+                        "enabled": false,
+                        "textUrl": "",
+                        "voiceUrl": "",
+                        "arrival": "",
+                        "departure": "",
+                        "approaches": "",
+                        "remarks": ""
+                    }
+                },
+                {
+                    "id": "90cb19e1-7d19-5677-a80e-b2e52791d586",
+                    "ordinal": 4,
+                    "name": "ILS - WEST FLOW",
+                    "airportConditions": "SIMUL ILS RWY 27R AND ILS RWY 27L APCHS IN USE.",
+                    "notams": "",
+                    "template": "[FACILITY] ARRIVAL INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+                    "externalGenerator": {
+                        "enabled": false,
+                        "textUrl": "",
+                        "voiceUrl": "",
+                        "arrival": "",
+                        "departure": "",
+                        "approaches": "",
+                        "remarks": ""
+                    }
+                },
+                {
+                    "id": "7b518505-5a3f-54d2-a7ec-5b1fb35a4102",
+                    "ordinal": 5,
+                    "name": "ILS - NORTH FLOW",
+                    "airportConditions": "SIMUL ILS Z RWY 4L AND ILS RWY 3R APCHS IN USE.",
+                    "notams": "",
+                    "template": "[FACILITY] ARRIVAL INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+                    "externalGenerator": {
+                        "enabled": false,
+                        "textUrl": "",
+                        "voiceUrl": "",
+                        "arrival": "",
+                        "departure": "",
+                        "approaches": "",
+                        "remarks": ""
+                    }
+                },
+                {
+                    "id": "27dfb229-7047-5c0f-b938-c12d5497e63e",
+                    "ordinal": 6,
+                    "name": "D-ATIS",
+                    "airportConditions": "",
+                    "notams": "",
+                    "template": "[FACILITY] ARRIVAL INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+                    "externalGenerator": {
+                        "enabled": false,
+                        "textUrl": "",
+                        "voiceUrl": "",
+                        "arrival": "",
+                        "departure": "",
+                        "approaches": "",
+                        "remarks": ""
+                    }
+                }
+            ],
+            "contractions": [
+                {
+                    "variableName": "ACFT",
+                    "text": "ACFT",
+                    "voice": "AIRCRAFT"
+                },
+                {
+                    "variableName": "ADVZYS",
+                    "text": "ADVZYS",
+                    "voice": "ADVISORIES"
+                },
+                {
+                    "variableName": "AFLD",
+                    "text": "AFLD",
+                    "voice": "AIRFIELD"
+                },
+                {
+                    "variableName": "APCH",
+                    "text": "APCH",
+                    "voice": "APPROACH"
+                },
+                {
+                    "variableName": "APCHS",
+                    "text": "APCHS",
+                    "voice": "APPROACHES"
+                },
+                {
+                    "variableName": "ARPT",
+                    "text": "ARPT",
+                    "voice": "AIRPORT"
+                },
+                {
+                    "variableName": "ARR",
+                    "text": "ARR",
+                    "voice": "ARRIVALS"
+                },
+                {
+                    "variableName": "AVBL",
+                    "text": "AVBL",
+                    "voice": "AVAILABLE"
+                },
+                {
+                    "variableName": "BC",
+                    "text": "BC",
+                    "voice": "BACK COURSE"
+                },
+                {
+                    "variableName": "CLSD",
+                    "text": "CLSD",
+                    "voice": "CLOSED"
+                },
+                {
+                    "variableName": "CTC",
+                    "text": "CTC",
+                    "voice": "CONTACT"
+                },
+                {
+                    "variableName": "CTN",
+                    "text": "CTN",
+                    "voice": "CAUTION"
+                },
+                {
+                    "variableName": "DEP",
+                    "text": "DEP",
+                    "voice": "DEPARTURE"
+                },
+                {
+                    "variableName": "DEPG",
+                    "text": "DEPG",
+                    "voice": "DEPARTING"
+                },
+                {
+                    "variableName": "DRCTN",
+                    "text": "DRCTN",
+                    "voice": "DIRECTION"
+                },
+                {
+                    "variableName": "EFCT",
+                    "text": "EFCT",
+                    "voice": "EFFECT"
+                },
+                {
+                    "variableName": "EXP",
+                    "text": "EXP",
+                    "voice": "EXPECT"
+                },
+                {
+                    "variableName": "FLT",
+                    "text": "FLT",
+                    "voice": "FLIGHT"
+                },
+                {
+                    "variableName": "FREQ",
+                    "text": "FREQ",
+                    "voice": "FREQUENCY"
+                },
+                {
+                    "variableName": "FT",
+                    "text": "FT",
+                    "voice": "FEET"
+                },
+                {
+                    "variableName": "HAZD",
+                    "text": "HAZD",
+                    "voice": "HAZARDOUS"
+                },
+                {
+                    "variableName": "HS",
+                    "text": "HS",
+                    "voice": "HOLD SHORT"
+                },
+                {
+                    "variableName": "INFO",
+                    "text": "INFO",
+                    "voice": "INFORMATION"
+                },
+                {
+                    "variableName": "LDG",
+                    "text": "LDG",
+                    "voice": "LANDING"
+                },
+                {
+                    "variableName": "LOC",
+                    "text": "LOC",
+                    "voice": "LOCALIZER"
+                },
+                {
+                    "variableName": "MGMT",
+                    "text": "MGMT",
+                    "voice": "MANAGEMENT"
+                },
+                {
+                    "variableName": "OPER",
+                    "text": "OPER",
+                    "voice": "OPERATE"
+                },
+                {
+                    "variableName": "OPS",
+                    "text": "OPS",
+                    "voice": "OPERATIONS"
+                },
+                {
+                    "variableName": "PPR",
+                    "text": "PPR",
+                    "voice": "PRIOR PERMISSION REQUIRED"
+                },
+                {
+                    "variableName": "RNAV",
+                    "text": "RNAV",
+                    "voice": "AR NAV"
+                },
+                {
+                    "variableName": "RQRD",
+                    "text": "RQRD",
+                    "voice": "REQUIRED"
+                },
+                {
+                    "variableName": "RQST",
+                    "text": "RQST",
+                    "voice": "REQUEST"
+                },
+                {
+                    "variableName": "RWY",
+                    "text": "RWY",
+                    "voice": "RUNWAY"
+                },
+                {
+                    "variableName": "RWYS",
+                    "text": "RWYS",
+                    "voice": "RUNWAYS"
+                },
+                {
+                    "variableName": "RY",
+                    "text": "RY",
+                    "voice": "RUNWAY"
+                },
+                {
+                    "variableName": "SIMUL",
+                    "text": "SIMUL",
+                    "voice": "SIMULTANEOUS"
+                },
+                {
+                    "variableName": "TACAN",
+                    "text": "TACAN",
+                    "voice": "TACK-AN"
+                },
+                {
+                    "variableName": "TWYS",
+                    "text": "TWYS",
+                    "voice": "TAXIWAYS"
+                },
+                {
+                    "variableName": "UNLGTD",
+                    "text": "UNLGTD",
+                    "voice": "UNLIGHTED"
+                },
+                {
+                    "variableName": "USCG",
+                    "text": "USCG",
+                    "voice": "COAST GUARD"
+                },
+                {
+                    "variableName": "WX",
+                    "text": "WX",
+                    "voice": "WEATHER"
+                },
+                {
+                    "variableName": "XPNDR",
+                    "text": "XPNDR",
+                    "voice": "TRANSPONDER"
+                }
+            ],
+            "airportConditionDefinitions": [],
+            "notamDefinitions": [
+                {
+                    "text": "READBACK ALL RWY HS INSTRUCTIONS.",
+                    "ordinal": 1,
+                    "enabled": true
+                },
+                {
+                    "text": "OPER XPNDR ON MODE CHARLIE ON ALL TWYS AND RWYS.",
+                    "ordinal": 2,
+                    "enabled": true
+                },
+                {
+                    "text": "HAZD WX INFO FOR DTX AREA AVBL ATC FREQ BY RQST.",
+                    "ordinal": 3,
+                    "weatherCondition": "wx includes \"TS FZRA FZDZ PL GR\"",
+                    "enabled": true
+                },
+                {
+                    "text": "WIND SHEAR ADVZYS IN EFCT.",
+                    "ordinal": 4,
+                    "weatherCondition": "windshear OR wx includes TS OR gust >= 30kt",
+                    "enabled": true
+                },
+                {
+                    "text": "RY 04L/22R CLSD.",
+                    "ordinal": 5,
+                    "enabled": false
+                },
+                {
+                    "text": "RY 04R/22L CLSD.",
+                    "ordinal": 6,
+                    "enabled": false
+                },
+                {
+                    "text": "RY 03L/21R CLSD.",
+                    "ordinal": 7,
+                    "enabled": false
+                },
+                {
+                    "text": "RY 03R/21L CLSD.",
+                    "ordinal": 8,
+                    "enabled": false
+                },
+                {
+                    "text": "RY 09L/27R CLSD.",
+                    "ordinal": 9,
+                    "enabled": false
+                },
+                {
+                    "text": "RY 09R/27L CLSD.",
+                    "ordinal": 10,
+                    "enabled": false
+                }
+            ],
+            "datisTextReplacements": [
+                {
+                    "pattern": ", [A-Z ]*\\bFREQ (?:IS )?1(?:1[89]|[23]\\d)\\.\\d{1,3}([,.;]?)",
+                    "replacement": "$1",
+                    "isRegex": true
+                },
+                {
+                    "pattern": "(?:[^.]|\\.(?=\\d))*\\b1(?:1[89]|[23]\\d)\\.\\d{1,3}\\b(?:[^.]|\\.(?=\\d))*",
+                    "replacement": "",
+                    "isRegex": true
+                },
+                {
+                    "pattern": "[^.]*READ ?BACK[^.]*\\b(HS|HDSRT|HOLD SHORT)\\b[^.]*",
+                    "replacement": "",
+                    "isRegex": true
+                },
+                {
+                    "pattern": "[^.]*\\b(XPNDR|TRANSPONDER)\\b[^.]*",
+                    "replacement": "",
+                    "isRegex": true
+                },
+                {
+                    "pattern": "NOTAMS\\.\\.\\.\\s*$",
+                    "replacement": "",
+                    "isRegex": true
+                }
+            ]
+        },
+        {
+            "id": "63e1f174-4eed-554b-bc4a-9bcb5f979d88",
+            "ordinal": 2,
+            "identifier": "KDTW",
+            "name": "Detroit Metropolitan",
+            "atisType": "Departure",
+            "codeRange": {
+                "low": "A",
+                "high": "Z"
+            },
+            "atisFormat": {
+                "observationTime": {
+                    "standardUpdateTime": [
+                        53
+                    ]
+                },
+                "surfaceWind": {
+                    "magneticVariation": {
+                        "enabled": true,
+                        "magneticDegrees": 10
+                    }
+                }
+            },
+            "notamsBeforeFreeText": false,
+            "airportConditionsBeforeFreeText": false,
+            "frequency": 118125000,
+            "idsEndpoint": "https://clevelandcenter.org/api/scripts/vATIS/post",
+            "useDecimalTerminology": false,
+            "atisVoice": {
+                "useTextToSpeech": true,
+                "voice": "Default",
+                "speechRate": 180
+            },
+            "presets": [
+                {
+                    "id": "83a41172-660a-5b83-9e54-ebd3f8215485",
+                    "ordinal": 0,
+                    "name": "VISUAL - SOUTH FLOW",
+                    "airportConditions": "DEPG RWY 21R, RWY 22L.",
+                    "notams": "",
+                    "template": "[FACILITY] DEPARTURE INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+                    "externalGenerator": {
+                        "enabled": false,
+                        "textUrl": "",
+                        "voiceUrl": "",
+                        "arrival": "",
+                        "departure": "",
+                        "approaches": "",
+                        "remarks": ""
+                    }
+                },
+                {
+                    "id": "048857d5-5330-5be1-b4dc-1d2dcac98ab9",
+                    "ordinal": 1,
+                    "name": "VISUAL - NORTH FLOW",
+                    "airportConditions": "DEPG RWY 3L, RWY 4R. RWY 4R DEPARTURE POINT IS Y2, DISTANCE REMAINING IS {11450} FT, FULL LENGTH AVBL UPON RQST.",
+                    "notams": "",
+                    "template": "[FACILITY] DEPARTURE INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+                    "externalGenerator": {
+                        "enabled": false,
+                        "textUrl": "",
+                        "voiceUrl": "",
+                        "arrival": "",
+                        "departure": "",
+                        "approaches": "",
+                        "remarks": ""
+                    }
+                },
+                {
+                    "id": "18c0d76f-8e84-5894-9ff7-1a6a3025e0e2",
+                    "ordinal": 2,
+                    "name": "VISUAL - WEST FLOW",
+                    "airportConditions": "DEPG RWY 27R, RWY 27L.",
+                    "notams": "",
+                    "template": "[FACILITY] DEPARTURE INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+                    "externalGenerator": {
+                        "enabled": false,
+                        "textUrl": "",
+                        "voiceUrl": "",
+                        "arrival": "",
+                        "departure": "",
+                        "approaches": "",
+                        "remarks": ""
+                    }
+                },
+                {
+                    "id": "e65e883a-e068-5d62-86a1-5b0e97b1b300",
+                    "ordinal": 3,
+                    "name": "ILS - SOUTH FLOW",
+                    "airportConditions": "DEPG RWY 21R, RWY 22L.",
+                    "notams": "",
+                    "template": "[FACILITY] DEPARTURE INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+                    "externalGenerator": {
+                        "enabled": false,
+                        "textUrl": "",
+                        "voiceUrl": "",
+                        "arrival": "",
+                        "departure": "",
+                        "approaches": "",
+                        "remarks": ""
+                    }
+                },
+                {
+                    "id": "ab9510b2-d577-50f3-a835-566e6579631e",
+                    "ordinal": 4,
+                    "name": "ILS - WEST FLOW",
+                    "airportConditions": "DEPG RWY 27R, RWY 27L.",
+                    "notams": "",
+                    "template": "[FACILITY] DEPARTURE INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+                    "externalGenerator": {
+                        "enabled": false,
+                        "textUrl": "",
+                        "voiceUrl": "",
+                        "arrival": "",
+                        "departure": "",
+                        "approaches": "",
+                        "remarks": ""
+                    }
+                },
+                {
+                    "id": "9a7817e4-6230-555a-8d39-6c881acc33ed",
+                    "ordinal": 5,
+                    "name": "ILS - NORTH FLOW",
+                    "airportConditions": "DEPG RWY 3L, RWY 4R. RWY 4R DEPARTURE POINT IS Y2, DISTANCE REMAINING IS {11450} FT, FULL LENGTH AVBL UPON RQST.",
+                    "notams": "",
+                    "template": "[FACILITY] DEPARTURE INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+                    "externalGenerator": {
+                        "enabled": false,
+                        "textUrl": "",
+                        "voiceUrl": "",
+                        "arrival": "",
+                        "departure": "",
+                        "approaches": "",
+                        "remarks": ""
+                    }
+                },
+                {
+                    "id": "1071df6e-a9e0-5bd1-b5f8-d33129c01314",
+                    "ordinal": 6,
+                    "name": "D-ATIS",
+                    "airportConditions": "",
+                    "notams": "",
+                    "template": "[FACILITY] DEPARTURE INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+                    "externalGenerator": {
+                        "enabled": false,
+                        "textUrl": "",
+                        "voiceUrl": "",
+                        "arrival": "",
+                        "departure": "",
+                        "approaches": "",
+                        "remarks": ""
+                    }
+                }
+            ],
+            "contractions": [
+                {
+                    "variableName": "ACFT",
+                    "text": "ACFT",
+                    "voice": "AIRCRAFT"
+                },
+                {
+                    "variableName": "ADVZYS",
+                    "text": "ADVZYS",
+                    "voice": "ADVISORIES"
+                },
+                {
+                    "variableName": "AFLD",
+                    "text": "AFLD",
+                    "voice": "AIRFIELD"
+                },
+                {
+                    "variableName": "APCH",
+                    "text": "APCH",
+                    "voice": "APPROACH"
+                },
+                {
+                    "variableName": "APCHS",
+                    "text": "APCHS",
+                    "voice": "APPROACHES"
+                },
+                {
+                    "variableName": "ARPT",
+                    "text": "ARPT",
+                    "voice": "AIRPORT"
+                },
+                {
+                    "variableName": "ARR",
+                    "text": "ARR",
+                    "voice": "ARRIVALS"
+                },
+                {
+                    "variableName": "AVBL",
+                    "text": "AVBL",
+                    "voice": "AVAILABLE"
+                },
+                {
+                    "variableName": "BC",
+                    "text": "BC",
+                    "voice": "BACK COURSE"
+                },
+                {
+                    "variableName": "CLSD",
+                    "text": "CLSD",
+                    "voice": "CLOSED"
+                },
+                {
+                    "variableName": "CTC",
+                    "text": "CTC",
+                    "voice": "CONTACT"
+                },
+                {
+                    "variableName": "CTN",
+                    "text": "CTN",
+                    "voice": "CAUTION"
+                },
+                {
+                    "variableName": "DEP",
+                    "text": "DEP",
+                    "voice": "DEPARTURE"
+                },
+                {
+                    "variableName": "DEPG",
+                    "text": "DEPG",
+                    "voice": "DEPARTING"
+                },
+                {
+                    "variableName": "DRCTN",
+                    "text": "DRCTN",
+                    "voice": "DIRECTION"
+                },
+                {
+                    "variableName": "EFCT",
+                    "text": "EFCT",
+                    "voice": "EFFECT"
+                },
+                {
+                    "variableName": "EXP",
+                    "text": "EXP",
+                    "voice": "EXPECT"
+                },
+                {
+                    "variableName": "FLT",
+                    "text": "FLT",
+                    "voice": "FLIGHT"
+                },
+                {
+                    "variableName": "FREQ",
+                    "text": "FREQ",
+                    "voice": "FREQUENCY"
+                },
+                {
+                    "variableName": "FT",
+                    "text": "FT",
+                    "voice": "FEET"
+                },
+                {
+                    "variableName": "HAZD",
+                    "text": "HAZD",
+                    "voice": "HAZARDOUS"
+                },
+                {
+                    "variableName": "HS",
+                    "text": "HS",
+                    "voice": "HOLD SHORT"
+                },
+                {
+                    "variableName": "INFO",
+                    "text": "INFO",
+                    "voice": "INFORMATION"
+                },
+                {
+                    "variableName": "LDG",
+                    "text": "LDG",
+                    "voice": "LANDING"
+                },
+                {
+                    "variableName": "LOC",
+                    "text": "LOC",
+                    "voice": "LOCALIZER"
+                },
+                {
+                    "variableName": "MGMT",
+                    "text": "MGMT",
+                    "voice": "MANAGEMENT"
+                },
+                {
+                    "variableName": "OPER",
+                    "text": "OPER",
+                    "voice": "OPERATE"
+                },
+                {
+                    "variableName": "OPS",
+                    "text": "OPS",
+                    "voice": "OPERATIONS"
+                },
+                {
+                    "variableName": "PPR",
+                    "text": "PPR",
+                    "voice": "PRIOR PERMISSION REQUIRED"
+                },
+                {
+                    "variableName": "RNAV",
+                    "text": "RNAV",
+                    "voice": "AR NAV"
+                },
+                {
+                    "variableName": "RQRD",
+                    "text": "RQRD",
+                    "voice": "REQUIRED"
+                },
+                {
+                    "variableName": "RQST",
+                    "text": "RQST",
+                    "voice": "REQUEST"
+                },
+                {
+                    "variableName": "RWY",
+                    "text": "RWY",
+                    "voice": "RUNWAY"
+                },
+                {
+                    "variableName": "RWYS",
+                    "text": "RWYS",
+                    "voice": "RUNWAYS"
+                },
+                {
+                    "variableName": "RY",
+                    "text": "RY",
+                    "voice": "RUNWAY"
+                },
+                {
+                    "variableName": "SIMUL",
+                    "text": "SIMUL",
+                    "voice": "SIMULTANEOUS"
+                },
+                {
+                    "variableName": "TACAN",
+                    "text": "TACAN",
+                    "voice": "TACK-AN"
+                },
+                {
+                    "variableName": "TWYS",
+                    "text": "TWYS",
+                    "voice": "TAXIWAYS"
+                },
+                {
+                    "variableName": "UNLGTD",
+                    "text": "UNLGTD",
+                    "voice": "UNLIGHTED"
+                },
+                {
+                    "variableName": "USCG",
+                    "text": "USCG",
+                    "voice": "COAST GUARD"
+                },
+                {
+                    "variableName": "WX",
+                    "text": "WX",
+                    "voice": "WEATHER"
+                },
+                {
+                    "variableName": "XPNDR",
+                    "text": "XPNDR",
+                    "voice": "TRANSPONDER"
+                }
+            ],
+            "airportConditionDefinitions": [],
+            "notamDefinitions": [
+                {
+                    "text": "VFR ACFT SAY DRCTN OF FLT.",
+                    "ordinal": 1,
+                    "enabled": true
+                },
+                {
+                    "text": "READBACK ALL RWY HS INSTRUCTIONS.",
+                    "ordinal": 2,
+                    "enabled": true
+                },
+                {
+                    "text": "OPER XPNDR ON MODE CHARLIE ON ALL TWYS AND RWYS.",
+                    "ordinal": 3,
+                    "enabled": true
+                },
+                {
+                    "text": "HAZD WX INFO FOR DTX AREA AVBL ATC FREQ BY RQST.",
+                    "ordinal": 4,
+                    "weatherCondition": "wx includes \"TS FZRA FZDZ PL GR\"",
+                    "enabled": true
+                },
+                {
+                    "text": "WIND SHEAR ADVZYS IN EFCT.",
+                    "ordinal": 5,
+                    "weatherCondition": "windshear OR wx includes TS OR gust >= 30kt",
+                    "enabled": true
+                },
+                {
+                    "text": "RY 04L/22R CLSD.",
+                    "ordinal": 6,
+                    "enabled": false
+                },
+                {
+                    "text": "RY 04R/22L CLSD.",
+                    "ordinal": 7,
+                    "enabled": false
+                },
+                {
+                    "text": "RY 03L/21R CLSD.",
+                    "ordinal": 8,
+                    "enabled": false
+                },
+                {
+                    "text": "RY 03R/21L CLSD.",
+                    "ordinal": 9,
+                    "enabled": false
+                },
+                {
+                    "text": "RY 09L/27R CLSD.",
+                    "ordinal": 10,
+                    "enabled": false
+                },
+                {
+                    "text": "RY 09R/27L CLSD.",
+                    "ordinal": 11,
+                    "enabled": false
+                },
+                {
+                    "text": "GROUND METERING IN EFCT.",
+                    "ordinal": 12,
+                    "enabled": false
+                }
+            ],
+            "datisTextReplacements": [
+                {
+                    "pattern": ", [A-Z ]*\\bFREQ (?:IS )?1(?:1[89]|[23]\\d)\\.\\d{1,3}([,.;]?)",
+                    "replacement": "$1",
+                    "isRegex": true
+                },
+                {
+                    "pattern": "(?:[^.]|\\.(?=\\d))*\\b1(?:1[89]|[23]\\d)\\.\\d{1,3}\\b(?:[^.]|\\.(?=\\d))*",
+                    "replacement": "",
+                    "isRegex": true
+                },
+                {
+                    "pattern": "[^.]*READ ?BACK[^.]*\\b(HS|HDSRT|HOLD SHORT)\\b[^.]*",
+                    "replacement": "",
+                    "isRegex": true
+                },
+                {
+                    "pattern": "[^.]*\\b(XPNDR|TRANSPONDER)\\b[^.]*",
+                    "replacement": "",
+                    "isRegex": true
+                },
+                {
+                    "pattern": "[^.]*\\bVFR (ACFT|AIRCRAFT) SAY\\b[^.]*",
+                    "replacement": "",
+                    "isRegex": true
+                },
+                {
+                    "pattern": "NOTAMS\\.\\.\\.\\s*$",
+                    "replacement": "",
+                    "isRegex": true
+                }
+            ]
+        },
+        {
+            "id": "9bc9b9e2-74a4-4ec0-b49f-0da84756977e",
+            "ordinal": 3,
             "identifier": "KCLE",
             "name": "Cleveland-Hopkins Intl",
             "atisType": "Combined",
@@ -809,8 +1722,886 @@
             ]
         },
         {
+            "id": "8503d021-acfc-5075-bce8-6e53d03e7f65",
+            "ordinal": 4,
+            "identifier": "KCLE",
+            "name": "Cleveland-Hopkins Intl",
+            "atisType": "Arrival",
+            "codeRange": {
+                "low": "A",
+                "high": "Z"
+            },
+            "atisFormat": {
+                "observationTime": {
+                    "standardUpdateTime": [
+                        51
+                    ]
+                },
+                "surfaceWind": {
+                    "magneticVariation": {
+                        "enabled": true,
+                        "magneticDegrees": 10
+                    }
+                }
+            },
+            "notamsBeforeFreeText": false,
+            "airportConditionsBeforeFreeText": false,
+            "frequency": 127850000,
+            "idsEndpoint": "https://clevelandcenter.org/api/scripts/vATIS/post",
+            "useDecimalTerminology": false,
+            "atisVoice": {
+                "useTextToSpeech": true,
+                "voice": "Default",
+                "speechRate": 180
+            },
+            "presets": [
+                {
+                    "id": "da0ed9c8-1f62-5265-92ef-76954c78d318",
+                    "ordinal": 0,
+                    "name": "ILS - 6 FLOW",
+                    "airportConditions": "ILS RWY 6L APCH IN USE.",
+                    "notams": "",
+                    "template": "[FACILITY] ARRIVAL INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+                    "externalGenerator": {
+                        "enabled": false,
+                        "textUrl": "",
+                        "voiceUrl": "",
+                        "arrival": "",
+                        "departure": "",
+                        "approaches": "",
+                        "remarks": ""
+                    }
+                },
+                {
+                    "id": "3ab55f28-16a1-51f2-bd6c-7c8ee8d4ee00",
+                    "ordinal": 1,
+                    "name": "ILS - 24 FLOW",
+                    "airportConditions": "ILS RWY 24R APCH IN USE.",
+                    "notams": "",
+                    "template": "[FACILITY] ARRIVAL INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+                    "externalGenerator": {
+                        "enabled": false,
+                        "textUrl": "",
+                        "voiceUrl": "",
+                        "arrival": "",
+                        "departure": "",
+                        "approaches": "",
+                        "remarks": ""
+                    }
+                },
+                {
+                    "id": "ca8cb958-7a03-55c1-85ae-b6ca1352040c",
+                    "ordinal": 2,
+                    "name": "VISUAL - 6 FLOW",
+                    "airportConditions": "VISUAL APCH RWY 6L IN USE.",
+                    "notams": "",
+                    "template": "[FACILITY] ARRIVAL INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+                    "externalGenerator": {
+                        "enabled": false,
+                        "textUrl": "",
+                        "voiceUrl": "",
+                        "arrival": "",
+                        "departure": "",
+                        "approaches": "",
+                        "remarks": ""
+                    }
+                },
+                {
+                    "id": "5d93fe4c-62a1-58fe-9699-5f3b7a6ec881",
+                    "ordinal": 3,
+                    "name": "VISUAL - 24 FLOW",
+                    "airportConditions": "VISUAL APCH RWY 24R IN USE.",
+                    "notams": "",
+                    "template": "[FACILITY] ARRIVAL INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+                    "externalGenerator": {
+                        "enabled": false,
+                        "textUrl": "",
+                        "voiceUrl": "",
+                        "arrival": "",
+                        "departure": "",
+                        "approaches": "",
+                        "remarks": ""
+                    }
+                },
+                {
+                    "id": "01951cb8-261d-5254-8fd4-8f7edaca4e4c",
+                    "ordinal": 4,
+                    "name": "ILS - 28 FLOW",
+                    "airportConditions": "ILS RWY 28 APCH IN USE.",
+                    "notams": "",
+                    "template": "[FACILITY] ARRIVAL INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+                    "externalGenerator": {
+                        "enabled": false,
+                        "textUrl": "",
+                        "voiceUrl": "",
+                        "arrival": "",
+                        "departure": "",
+                        "approaches": "",
+                        "remarks": ""
+                    }
+                },
+                {
+                    "id": "bf017ec1-d951-50fb-a665-f9dabb94f51a",
+                    "ordinal": 5,
+                    "name": "ILS - 6/10 FLOW",
+                    "airportConditions": "ILS RWY 6L APCH, RNAV RWY 10 APCH IN USE.",
+                    "notams": "",
+                    "template": "[FACILITY] ARRIVAL INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+                    "externalGenerator": {
+                        "enabled": false,
+                        "textUrl": "",
+                        "voiceUrl": "",
+                        "arrival": "",
+                        "departure": "",
+                        "approaches": "",
+                        "remarks": ""
+                    }
+                },
+                {
+                    "id": "441f220a-88ce-5769-8693-7fba00fb6fdb",
+                    "ordinal": 6,
+                    "name": "D-ATIS",
+                    "airportConditions": "",
+                    "notams": "",
+                    "template": "[FACILITY] ARRIVAL INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+                    "externalGenerator": {
+                        "enabled": false,
+                        "textUrl": "",
+                        "voiceUrl": "",
+                        "arrival": "",
+                        "departure": "",
+                        "approaches": "",
+                        "remarks": ""
+                    }
+                }
+            ],
+            "contractions": [
+                {
+                    "variableName": "ACFT",
+                    "text": "ACFT",
+                    "voice": "AIRCRAFT"
+                },
+                {
+                    "variableName": "ADVZYS",
+                    "text": "ADVZYS",
+                    "voice": "ADVISORIES"
+                },
+                {
+                    "variableName": "AFLD",
+                    "text": "AFLD",
+                    "voice": "AIRFIELD"
+                },
+                {
+                    "variableName": "APCH",
+                    "text": "APCH",
+                    "voice": "APPROACH"
+                },
+                {
+                    "variableName": "APCHS",
+                    "text": "APCHS",
+                    "voice": "APPROACHES"
+                },
+                {
+                    "variableName": "ARPT",
+                    "text": "ARPT",
+                    "voice": "AIRPORT"
+                },
+                {
+                    "variableName": "ARR",
+                    "text": "ARR",
+                    "voice": "ARRIVALS"
+                },
+                {
+                    "variableName": "AVBL",
+                    "text": "AVBL",
+                    "voice": "AVAILABLE"
+                },
+                {
+                    "variableName": "BC",
+                    "text": "BC",
+                    "voice": "BACK COURSE"
+                },
+                {
+                    "variableName": "CLSD",
+                    "text": "CLSD",
+                    "voice": "CLOSED"
+                },
+                {
+                    "variableName": "CTC",
+                    "text": "CTC",
+                    "voice": "CONTACT"
+                },
+                {
+                    "variableName": "CTN",
+                    "text": "CTN",
+                    "voice": "CAUTION"
+                },
+                {
+                    "variableName": "DEP",
+                    "text": "DEP",
+                    "voice": "DEPARTURE"
+                },
+                {
+                    "variableName": "DEPG",
+                    "text": "DEPG",
+                    "voice": "DEPARTING"
+                },
+                {
+                    "variableName": "DRCTN",
+                    "text": "DRCTN",
+                    "voice": "DIRECTION"
+                },
+                {
+                    "variableName": "EFCT",
+                    "text": "EFCT",
+                    "voice": "EFFECT"
+                },
+                {
+                    "variableName": "EXP",
+                    "text": "EXP",
+                    "voice": "EXPECT"
+                },
+                {
+                    "variableName": "FLT",
+                    "text": "FLT",
+                    "voice": "FLIGHT"
+                },
+                {
+                    "variableName": "FREQ",
+                    "text": "FREQ",
+                    "voice": "FREQUENCY"
+                },
+                {
+                    "variableName": "FT",
+                    "text": "FT",
+                    "voice": "FEET"
+                },
+                {
+                    "variableName": "HAZD",
+                    "text": "HAZD",
+                    "voice": "HAZARDOUS"
+                },
+                {
+                    "variableName": "HS",
+                    "text": "HS",
+                    "voice": "HOLD SHORT"
+                },
+                {
+                    "variableName": "INFO",
+                    "text": "INFO",
+                    "voice": "INFORMATION"
+                },
+                {
+                    "variableName": "LDG",
+                    "text": "LDG",
+                    "voice": "LANDING"
+                },
+                {
+                    "variableName": "LOC",
+                    "text": "LOC",
+                    "voice": "LOCALIZER"
+                },
+                {
+                    "variableName": "MGMT",
+                    "text": "MGMT",
+                    "voice": "MANAGEMENT"
+                },
+                {
+                    "variableName": "OPER",
+                    "text": "OPER",
+                    "voice": "OPERATE"
+                },
+                {
+                    "variableName": "OPS",
+                    "text": "OPS",
+                    "voice": "OPERATIONS"
+                },
+                {
+                    "variableName": "PPR",
+                    "text": "PPR",
+                    "voice": "PRIOR PERMISSION REQUIRED"
+                },
+                {
+                    "variableName": "RNAV",
+                    "text": "RNAV",
+                    "voice": "AR NAV"
+                },
+                {
+                    "variableName": "RQRD",
+                    "text": "RQRD",
+                    "voice": "REQUIRED"
+                },
+                {
+                    "variableName": "RQST",
+                    "text": "RQST",
+                    "voice": "REQUEST"
+                },
+                {
+                    "variableName": "RWY",
+                    "text": "RWY",
+                    "voice": "RUNWAY"
+                },
+                {
+                    "variableName": "RWYS",
+                    "text": "RWYS",
+                    "voice": "RUNWAYS"
+                },
+                {
+                    "variableName": "RY",
+                    "text": "RY",
+                    "voice": "RUNWAY"
+                },
+                {
+                    "variableName": "SIMUL",
+                    "text": "SIMUL",
+                    "voice": "SIMULTANEOUS"
+                },
+                {
+                    "variableName": "TACAN",
+                    "text": "TACAN",
+                    "voice": "TACK-AN"
+                },
+                {
+                    "variableName": "TWYS",
+                    "text": "TWYS",
+                    "voice": "TAXIWAYS"
+                },
+                {
+                    "variableName": "UNLGTD",
+                    "text": "UNLGTD",
+                    "voice": "UNLIGHTED"
+                },
+                {
+                    "variableName": "USCG",
+                    "text": "USCG",
+                    "voice": "COAST GUARD"
+                },
+                {
+                    "variableName": "WX",
+                    "text": "WX",
+                    "voice": "WEATHER"
+                },
+                {
+                    "variableName": "XPNDR",
+                    "text": "XPNDR",
+                    "voice": "TRANSPONDER"
+                }
+            ],
+            "airportConditionDefinitions": [],
+            "notamDefinitions": [
+                {
+                    "text": "OPERATE XPNDR IN ALTITUDE REPORTING MODE ON ALL TWYS AND RWYS.",
+                    "ordinal": 1,
+                    "enabled": true
+                },
+                {
+                    "text": "CAUTION BIRD ACTIVITY VICINITY AIRPORT.",
+                    "ordinal": 2,
+                    "enabled": true
+                },
+                {
+                    "text": "READBACK ALL RWY HS INSTRUCTIONS.",
+                    "ordinal": 3,
+                    "enabled": true
+                },
+                {
+                    "text": "HAZD WX INFO FOR CLE AREA AVBL ATC FREQ BY RQST.",
+                    "ordinal": 4,
+                    "weatherCondition": "wx includes \"TS FZRA FZDZ PL GR\"",
+                    "enabled": true
+                },
+                {
+                    "text": "WIND SHEAR ADVZYS IN EFCT.",
+                    "ordinal": 5,
+                    "weatherCondition": "windshear OR wx includes TS OR gust >= 30kt",
+                    "enabled": true
+                },
+                {
+                    "text": "RY 06L/24R CLSD.",
+                    "ordinal": 6,
+                    "enabled": false
+                },
+                {
+                    "text": "RY 06R/24L CLSD.",
+                    "ordinal": 7,
+                    "enabled": false
+                }
+            ],
+            "datisTextReplacements": [
+                {
+                    "pattern": ", [A-Z ]*\\bFREQ (?:IS )?1(?:1[89]|[23]\\d)\\.\\d{1,3}([,.;]?)",
+                    "replacement": "$1",
+                    "isRegex": true
+                },
+                {
+                    "pattern": "(?:[^.]|\\.(?=\\d))*\\b1(?:1[89]|[23]\\d)\\.\\d{1,3}\\b(?:[^.]|\\.(?=\\d))*",
+                    "replacement": "",
+                    "isRegex": true
+                },
+                {
+                    "pattern": "[^.]*READ ?BACK[^.]*\\b(HS|HDSRT|HOLD SHORT)\\b[^.]*",
+                    "replacement": "",
+                    "isRegex": true
+                },
+                {
+                    "pattern": "[^.]*\\bBIRDS?\\b[^.]*",
+                    "replacement": "",
+                    "isRegex": true
+                },
+                {
+                    "pattern": "[^.]*\\b(XPNDR|TRANSPONDER)\\b[^.]*",
+                    "replacement": "",
+                    "isRegex": true
+                },
+                {
+                    "pattern": "NOTAMS\\.\\.\\.\\s*$",
+                    "replacement": "",
+                    "isRegex": true
+                }
+            ]
+        },
+        {
+            "id": "734572e6-8aa8-5c23-b281-78f1b98036b2",
+            "ordinal": 5,
+            "identifier": "KCLE",
+            "name": "Cleveland-Hopkins Intl",
+            "atisType": "Departure",
+            "codeRange": {
+                "low": "A",
+                "high": "Z"
+            },
+            "atisFormat": {
+                "observationTime": {
+                    "standardUpdateTime": [
+                        51
+                    ]
+                },
+                "surfaceWind": {
+                    "magneticVariation": {
+                        "enabled": true,
+                        "magneticDegrees": 10
+                    }
+                }
+            },
+            "notamsBeforeFreeText": false,
+            "airportConditionsBeforeFreeText": false,
+            "frequency": 132375000,
+            "idsEndpoint": "https://clevelandcenter.org/api/scripts/vATIS/post",
+            "useDecimalTerminology": false,
+            "atisVoice": {
+                "useTextToSpeech": true,
+                "voice": "Default",
+                "speechRate": 180
+            },
+            "presets": [
+                {
+                    "id": "fe353039-2882-5c84-bd2b-c04aa0f113a5",
+                    "ordinal": 0,
+                    "name": "ILS - 6 FLOW",
+                    "airportConditions": "DEPG RUNWAY 6R.",
+                    "notams": "",
+                    "template": "[FACILITY] DEPARTURE INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+                    "externalGenerator": {
+                        "enabled": false,
+                        "textUrl": "",
+                        "voiceUrl": "",
+                        "arrival": "",
+                        "departure": "",
+                        "approaches": "",
+                        "remarks": ""
+                    }
+                },
+                {
+                    "id": "cb9fa723-a2d0-58f0-b95b-d4eab3deea81",
+                    "ordinal": 1,
+                    "name": "ILS - 24 FLOW",
+                    "airportConditions": "DEPG RUNWAY 24L.",
+                    "notams": "",
+                    "template": "[FACILITY] DEPARTURE INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+                    "externalGenerator": {
+                        "enabled": false,
+                        "textUrl": "",
+                        "voiceUrl": "",
+                        "arrival": "",
+                        "departure": "",
+                        "approaches": "",
+                        "remarks": ""
+                    }
+                },
+                {
+                    "id": "78c4d17b-5bc3-59c0-8e47-9b8e35851b70",
+                    "ordinal": 2,
+                    "name": "VISUAL - 6 FLOW",
+                    "airportConditions": "DEPG RUNWAY 6R.",
+                    "notams": "",
+                    "template": "[FACILITY] DEPARTURE INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+                    "externalGenerator": {
+                        "enabled": false,
+                        "textUrl": "",
+                        "voiceUrl": "",
+                        "arrival": "",
+                        "departure": "",
+                        "approaches": "",
+                        "remarks": ""
+                    }
+                },
+                {
+                    "id": "81126850-4330-52e3-9d3d-b4574acf8121",
+                    "ordinal": 3,
+                    "name": "VISUAL - 24 FLOW",
+                    "airportConditions": "DEPG RUNWAY 24L.",
+                    "notams": "",
+                    "template": "[FACILITY] DEPARTURE INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+                    "externalGenerator": {
+                        "enabled": false,
+                        "textUrl": "",
+                        "voiceUrl": "",
+                        "arrival": "",
+                        "departure": "",
+                        "approaches": "",
+                        "remarks": ""
+                    }
+                },
+                {
+                    "id": "445f0bab-8d92-563d-9e76-e9abdfb9f747",
+                    "ordinal": 4,
+                    "name": "ILS - 28 FLOW",
+                    "airportConditions": "DEPG RUNWAY 28.",
+                    "notams": "",
+                    "template": "[FACILITY] DEPARTURE INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+                    "externalGenerator": {
+                        "enabled": false,
+                        "textUrl": "",
+                        "voiceUrl": "",
+                        "arrival": "",
+                        "departure": "",
+                        "approaches": "",
+                        "remarks": ""
+                    }
+                },
+                {
+                    "id": "62882c3e-9815-5953-88d7-e57e17ed3534",
+                    "ordinal": 5,
+                    "name": "ILS - 6/10 FLOW",
+                    "airportConditions": "DEPG RWY 6R, RWY 10.",
+                    "notams": "",
+                    "template": "[FACILITY] DEPARTURE INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+                    "externalGenerator": {
+                        "enabled": false,
+                        "textUrl": "",
+                        "voiceUrl": "",
+                        "arrival": "",
+                        "departure": "",
+                        "approaches": "",
+                        "remarks": ""
+                    }
+                },
+                {
+                    "id": "64a22933-9807-57d3-83fc-2c294795ea8a",
+                    "ordinal": 6,
+                    "name": "D-ATIS",
+                    "airportConditions": "",
+                    "notams": "",
+                    "template": "[FACILITY] DEPARTURE INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+                    "externalGenerator": {
+                        "enabled": false,
+                        "textUrl": "",
+                        "voiceUrl": "",
+                        "arrival": "",
+                        "departure": "",
+                        "approaches": "",
+                        "remarks": ""
+                    }
+                }
+            ],
+            "contractions": [
+                {
+                    "variableName": "ACFT",
+                    "text": "ACFT",
+                    "voice": "AIRCRAFT"
+                },
+                {
+                    "variableName": "ADVZYS",
+                    "text": "ADVZYS",
+                    "voice": "ADVISORIES"
+                },
+                {
+                    "variableName": "AFLD",
+                    "text": "AFLD",
+                    "voice": "AIRFIELD"
+                },
+                {
+                    "variableName": "APCH",
+                    "text": "APCH",
+                    "voice": "APPROACH"
+                },
+                {
+                    "variableName": "APCHS",
+                    "text": "APCHS",
+                    "voice": "APPROACHES"
+                },
+                {
+                    "variableName": "ARPT",
+                    "text": "ARPT",
+                    "voice": "AIRPORT"
+                },
+                {
+                    "variableName": "ARR",
+                    "text": "ARR",
+                    "voice": "ARRIVALS"
+                },
+                {
+                    "variableName": "AVBL",
+                    "text": "AVBL",
+                    "voice": "AVAILABLE"
+                },
+                {
+                    "variableName": "BC",
+                    "text": "BC",
+                    "voice": "BACK COURSE"
+                },
+                {
+                    "variableName": "CLSD",
+                    "text": "CLSD",
+                    "voice": "CLOSED"
+                },
+                {
+                    "variableName": "CTC",
+                    "text": "CTC",
+                    "voice": "CONTACT"
+                },
+                {
+                    "variableName": "CTN",
+                    "text": "CTN",
+                    "voice": "CAUTION"
+                },
+                {
+                    "variableName": "DEP",
+                    "text": "DEP",
+                    "voice": "DEPARTURE"
+                },
+                {
+                    "variableName": "DEPG",
+                    "text": "DEPG",
+                    "voice": "DEPARTING"
+                },
+                {
+                    "variableName": "DRCTN",
+                    "text": "DRCTN",
+                    "voice": "DIRECTION"
+                },
+                {
+                    "variableName": "EFCT",
+                    "text": "EFCT",
+                    "voice": "EFFECT"
+                },
+                {
+                    "variableName": "EXP",
+                    "text": "EXP",
+                    "voice": "EXPECT"
+                },
+                {
+                    "variableName": "FLT",
+                    "text": "FLT",
+                    "voice": "FLIGHT"
+                },
+                {
+                    "variableName": "FREQ",
+                    "text": "FREQ",
+                    "voice": "FREQUENCY"
+                },
+                {
+                    "variableName": "FT",
+                    "text": "FT",
+                    "voice": "FEET"
+                },
+                {
+                    "variableName": "HAZD",
+                    "text": "HAZD",
+                    "voice": "HAZARDOUS"
+                },
+                {
+                    "variableName": "HS",
+                    "text": "HS",
+                    "voice": "HOLD SHORT"
+                },
+                {
+                    "variableName": "INFO",
+                    "text": "INFO",
+                    "voice": "INFORMATION"
+                },
+                {
+                    "variableName": "LDG",
+                    "text": "LDG",
+                    "voice": "LANDING"
+                },
+                {
+                    "variableName": "LOC",
+                    "text": "LOC",
+                    "voice": "LOCALIZER"
+                },
+                {
+                    "variableName": "MGMT",
+                    "text": "MGMT",
+                    "voice": "MANAGEMENT"
+                },
+                {
+                    "variableName": "OPER",
+                    "text": "OPER",
+                    "voice": "OPERATE"
+                },
+                {
+                    "variableName": "OPS",
+                    "text": "OPS",
+                    "voice": "OPERATIONS"
+                },
+                {
+                    "variableName": "PPR",
+                    "text": "PPR",
+                    "voice": "PRIOR PERMISSION REQUIRED"
+                },
+                {
+                    "variableName": "RNAV",
+                    "text": "RNAV",
+                    "voice": "AR NAV"
+                },
+                {
+                    "variableName": "RQRD",
+                    "text": "RQRD",
+                    "voice": "REQUIRED"
+                },
+                {
+                    "variableName": "RQST",
+                    "text": "RQST",
+                    "voice": "REQUEST"
+                },
+                {
+                    "variableName": "RWY",
+                    "text": "RWY",
+                    "voice": "RUNWAY"
+                },
+                {
+                    "variableName": "RWYS",
+                    "text": "RWYS",
+                    "voice": "RUNWAYS"
+                },
+                {
+                    "variableName": "RY",
+                    "text": "RY",
+                    "voice": "RUNWAY"
+                },
+                {
+                    "variableName": "SIMUL",
+                    "text": "SIMUL",
+                    "voice": "SIMULTANEOUS"
+                },
+                {
+                    "variableName": "TACAN",
+                    "text": "TACAN",
+                    "voice": "TACK-AN"
+                },
+                {
+                    "variableName": "TWYS",
+                    "text": "TWYS",
+                    "voice": "TAXIWAYS"
+                },
+                {
+                    "variableName": "UNLGTD",
+                    "text": "UNLGTD",
+                    "voice": "UNLIGHTED"
+                },
+                {
+                    "variableName": "USCG",
+                    "text": "USCG",
+                    "voice": "COAST GUARD"
+                },
+                {
+                    "variableName": "WX",
+                    "text": "WX",
+                    "voice": "WEATHER"
+                },
+                {
+                    "variableName": "XPNDR",
+                    "text": "XPNDR",
+                    "voice": "TRANSPONDER"
+                }
+            ],
+            "airportConditionDefinitions": [],
+            "notamDefinitions": [
+                {
+                    "text": "OPERATE XPNDR IN ALTITUDE REPORTING MODE ON ALL TWYS AND RWYS.",
+                    "ordinal": 1,
+                    "enabled": true
+                },
+                {
+                    "text": "CAUTION BIRD ACTIVITY VICINITY AIRPORT.",
+                    "ordinal": 2,
+                    "enabled": true
+                },
+                {
+                    "text": "READBACK ALL RWY HS INSTRUCTIONS.",
+                    "ordinal": 3,
+                    "enabled": true
+                },
+                {
+                    "text": "HAZD WX INFO FOR CLE AREA AVBL ATC FREQ BY RQST.",
+                    "ordinal": 4,
+                    "weatherCondition": "wx includes \"TS FZRA FZDZ PL GR\"",
+                    "enabled": true
+                },
+                {
+                    "text": "WIND SHEAR ADVZYS IN EFCT.",
+                    "ordinal": 5,
+                    "weatherCondition": "windshear OR wx includes TS OR gust >= 30kt",
+                    "enabled": true
+                },
+                {
+                    "text": "RY 06L/24R CLSD.",
+                    "ordinal": 6,
+                    "enabled": false
+                },
+                {
+                    "text": "RY 06R/24L CLSD.",
+                    "ordinal": 7,
+                    "enabled": false
+                }
+            ],
+            "datisTextReplacements": [
+                {
+                    "pattern": ", [A-Z ]*\\bFREQ (?:IS )?1(?:1[89]|[23]\\d)\\.\\d{1,3}([,.;]?)",
+                    "replacement": "$1",
+                    "isRegex": true
+                },
+                {
+                    "pattern": "(?:[^.]|\\.(?=\\d))*\\b1(?:1[89]|[23]\\d)\\.\\d{1,3}\\b(?:[^.]|\\.(?=\\d))*",
+                    "replacement": "",
+                    "isRegex": true
+                },
+                {
+                    "pattern": "[^.]*READ ?BACK[^.]*\\b(HS|HDSRT|HOLD SHORT)\\b[^.]*",
+                    "replacement": "",
+                    "isRegex": true
+                },
+                {
+                    "pattern": "[^.]*\\bBIRDS?\\b[^.]*",
+                    "replacement": "",
+                    "isRegex": true
+                },
+                {
+                    "pattern": "[^.]*\\b(XPNDR|TRANSPONDER)\\b[^.]*",
+                    "replacement": "",
+                    "isRegex": true
+                },
+                {
+                    "pattern": "NOTAMS\\.\\.\\.\\s*$",
+                    "replacement": "",
+                    "isRegex": true
+                }
+            ]
+        },
+        {
             "id": "082d488e-9acb-4661-b6c2-74f320ae3d1a",
-            "ordinal": 2,
+            "ordinal": 6,
             "identifier": "KPIT",
             "name": "Pittsburgh Intl",
             "atisType": "Combined",
@@ -1175,8 +2966,828 @@
             ]
         },
         {
+            "id": "b9445ad8-fcda-5498-bbec-7cf429557eda",
+            "ordinal": 7,
+            "identifier": "KPIT",
+            "name": "Pittsburgh Intl",
+            "atisType": "Arrival",
+            "codeRange": {
+                "low": "A",
+                "high": "Z"
+            },
+            "atisFormat": {
+                "observationTime": {
+                    "standardUpdateTime": [
+                        51
+                    ]
+                },
+                "surfaceWind": {
+                    "magneticVariation": {
+                        "enabled": true,
+                        "magneticDegrees": 10
+                    }
+                }
+            },
+            "notamsBeforeFreeText": false,
+            "airportConditionsBeforeFreeText": false,
+            "frequency": 127250000,
+            "idsEndpoint": "https://clevelandcenter.org/api/scripts/vATIS/post",
+            "useDecimalTerminology": false,
+            "atisVoice": {
+                "useTextToSpeech": true,
+                "voice": "Default",
+                "speechRate": 180
+            },
+            "presets": [
+                {
+                    "id": "39b3986b-6caf-5573-aa73-9330e27f0687",
+                    "ordinal": 0,
+                    "name": "ILS - WEST FLOW",
+                    "airportConditions": "SIMUL ILS RWY 28L AND ILS RWY 28R APCHS IN USE. ILS RWY 32 IN USE.",
+                    "notams": "",
+                    "template": "[FACILITY] ARRIVAL INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+                    "externalGenerator": {
+                        "enabled": false,
+                        "textUrl": "",
+                        "voiceUrl": "",
+                        "arrival": "",
+                        "departure": "",
+                        "approaches": "",
+                        "remarks": ""
+                    }
+                },
+                {
+                    "id": "3fe9153a-4ef4-55a1-b53f-9375039a5c21",
+                    "ordinal": 1,
+                    "name": "ILS - EAST FLOW",
+                    "airportConditions": "SIMUL ILS RWY 10L AND ILS RWY 10R APCHS IN USE.",
+                    "notams": "",
+                    "template": "[FACILITY] ARRIVAL INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+                    "externalGenerator": {
+                        "enabled": false,
+                        "textUrl": "",
+                        "voiceUrl": "",
+                        "arrival": "",
+                        "departure": "",
+                        "approaches": "",
+                        "remarks": ""
+                    }
+                },
+                {
+                    "id": "5df2ca18-39d5-5de4-aa1e-674c5bfedbb5",
+                    "ordinal": 2,
+                    "name": "VISUAL - WEST FLOW",
+                    "airportConditions": "SIMUL VISUAL APCHS RWY 28L AND RWY 28R IN USE. VISUAL APCH RWY 32 IN USE.",
+                    "notams": "",
+                    "template": "[FACILITY] ARRIVAL INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+                    "externalGenerator": {
+                        "enabled": false,
+                        "textUrl": "",
+                        "voiceUrl": "",
+                        "arrival": "",
+                        "departure": "",
+                        "approaches": "",
+                        "remarks": ""
+                    }
+                },
+                {
+                    "id": "ed477f6f-c258-50f8-863e-82c5ac77a353",
+                    "ordinal": 3,
+                    "name": "VISUAL - EAST FLOW",
+                    "airportConditions": "SIMUL VISUAL APCHS RWY 10L AND RWY 10R IN USE.",
+                    "notams": "",
+                    "template": "[FACILITY] ARRIVAL INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+                    "externalGenerator": {
+                        "enabled": false,
+                        "textUrl": "",
+                        "voiceUrl": "",
+                        "arrival": "",
+                        "departure": "",
+                        "approaches": "",
+                        "remarks": ""
+                    }
+                },
+                {
+                    "id": "a0836807-44d8-58cc-abfe-a997cbead4d3",
+                    "ordinal": 4,
+                    "name": "D-ATIS",
+                    "airportConditions": "",
+                    "notams": "",
+                    "template": "[FACILITY] ARRIVAL INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+                    "externalGenerator": {
+                        "enabled": false,
+                        "textUrl": "",
+                        "voiceUrl": "",
+                        "arrival": "",
+                        "departure": "",
+                        "approaches": "",
+                        "remarks": ""
+                    }
+                }
+            ],
+            "contractions": [
+                {
+                    "variableName": "ACFT",
+                    "text": "ACFT",
+                    "voice": "AIRCRAFT"
+                },
+                {
+                    "variableName": "ADVZYS",
+                    "text": "ADVZYS",
+                    "voice": "ADVISORIES"
+                },
+                {
+                    "variableName": "AFLD",
+                    "text": "AFLD",
+                    "voice": "AIRFIELD"
+                },
+                {
+                    "variableName": "APCH",
+                    "text": "APCH",
+                    "voice": "APPROACH"
+                },
+                {
+                    "variableName": "APCHS",
+                    "text": "APCHS",
+                    "voice": "APPROACHES"
+                },
+                {
+                    "variableName": "ARPT",
+                    "text": "ARPT",
+                    "voice": "AIRPORT"
+                },
+                {
+                    "variableName": "ARR",
+                    "text": "ARR",
+                    "voice": "ARRIVALS"
+                },
+                {
+                    "variableName": "AVBL",
+                    "text": "AVBL",
+                    "voice": "AVAILABLE"
+                },
+                {
+                    "variableName": "BC",
+                    "text": "BC",
+                    "voice": "BACK COURSE"
+                },
+                {
+                    "variableName": "CLSD",
+                    "text": "CLSD",
+                    "voice": "CLOSED"
+                },
+                {
+                    "variableName": "CTC",
+                    "text": "CTC",
+                    "voice": "CONTACT"
+                },
+                {
+                    "variableName": "CTN",
+                    "text": "CTN",
+                    "voice": "CAUTION"
+                },
+                {
+                    "variableName": "DEP",
+                    "text": "DEP",
+                    "voice": "DEPARTURE"
+                },
+                {
+                    "variableName": "DEPG",
+                    "text": "DEPG",
+                    "voice": "DEPARTING"
+                },
+                {
+                    "variableName": "DRCTN",
+                    "text": "DRCTN",
+                    "voice": "DIRECTION"
+                },
+                {
+                    "variableName": "EFCT",
+                    "text": "EFCT",
+                    "voice": "EFFECT"
+                },
+                {
+                    "variableName": "EXP",
+                    "text": "EXP",
+                    "voice": "EXPECT"
+                },
+                {
+                    "variableName": "FLT",
+                    "text": "FLT",
+                    "voice": "FLIGHT"
+                },
+                {
+                    "variableName": "FREQ",
+                    "text": "FREQ",
+                    "voice": "FREQUENCY"
+                },
+                {
+                    "variableName": "FT",
+                    "text": "FT",
+                    "voice": "FEET"
+                },
+                {
+                    "variableName": "HAZD",
+                    "text": "HAZD",
+                    "voice": "HAZARDOUS"
+                },
+                {
+                    "variableName": "HS",
+                    "text": "HS",
+                    "voice": "HOLD SHORT"
+                },
+                {
+                    "variableName": "INFO",
+                    "text": "INFO",
+                    "voice": "INFORMATION"
+                },
+                {
+                    "variableName": "LDG",
+                    "text": "LDG",
+                    "voice": "LANDING"
+                },
+                {
+                    "variableName": "LOC",
+                    "text": "LOC",
+                    "voice": "LOCALIZER"
+                },
+                {
+                    "variableName": "MGMT",
+                    "text": "MGMT",
+                    "voice": "MANAGEMENT"
+                },
+                {
+                    "variableName": "OPER",
+                    "text": "OPER",
+                    "voice": "OPERATE"
+                },
+                {
+                    "variableName": "OPS",
+                    "text": "OPS",
+                    "voice": "OPERATIONS"
+                },
+                {
+                    "variableName": "PPR",
+                    "text": "PPR",
+                    "voice": "PRIOR PERMISSION REQUIRED"
+                },
+                {
+                    "variableName": "RNAV",
+                    "text": "RNAV",
+                    "voice": "AR NAV"
+                },
+                {
+                    "variableName": "RQRD",
+                    "text": "RQRD",
+                    "voice": "REQUIRED"
+                },
+                {
+                    "variableName": "RQST",
+                    "text": "RQST",
+                    "voice": "REQUEST"
+                },
+                {
+                    "variableName": "RWY",
+                    "text": "RWY",
+                    "voice": "RUNWAY"
+                },
+                {
+                    "variableName": "RWYS",
+                    "text": "RWYS",
+                    "voice": "RUNWAYS"
+                },
+                {
+                    "variableName": "RY",
+                    "text": "RY",
+                    "voice": "RUNWAY"
+                },
+                {
+                    "variableName": "SIMUL",
+                    "text": "SIMUL",
+                    "voice": "SIMULTANEOUS"
+                },
+                {
+                    "variableName": "TACAN",
+                    "text": "TACAN",
+                    "voice": "TACK-AN"
+                },
+                {
+                    "variableName": "TWYS",
+                    "text": "TWYS",
+                    "voice": "TAXIWAYS"
+                },
+                {
+                    "variableName": "UNLGTD",
+                    "text": "UNLGTD",
+                    "voice": "UNLIGHTED"
+                },
+                {
+                    "variableName": "USCG",
+                    "text": "USCG",
+                    "voice": "COAST GUARD"
+                },
+                {
+                    "variableName": "WX",
+                    "text": "WX",
+                    "voice": "WEATHER"
+                },
+                {
+                    "variableName": "XPNDR",
+                    "text": "XPNDR",
+                    "voice": "TRANSPONDER"
+                }
+            ],
+            "airportConditionDefinitions": [],
+            "notamDefinitions": [
+                {
+                    "text": "OPERATE XPNDR IN ALTITUDE REPORTING MODE ON ALL TWYS AND RWYS.",
+                    "ordinal": 1,
+                    "enabled": true
+                },
+                {
+                    "text": "READBACK ALL RWY HS INSTRUCTIONS.",
+                    "ordinal": 2,
+                    "enabled": true
+                },
+                {
+                    "text": "HAZD WX INFO FOR PIT AREA AVBL ATC FREQ BY RQST.",
+                    "ordinal": 3,
+                    "weatherCondition": "wx includes \"TS FZRA FZDZ PL GR\"",
+                    "enabled": true
+                },
+                {
+                    "text": "WIND SHEAR ADVZYS IN EFCT.",
+                    "ordinal": 4,
+                    "weatherCondition": "windshear OR wx includes TS OR gust >= 30kt",
+                    "enabled": true
+                },
+                {
+                    "text": "RY 10L/28R CLSD.",
+                    "ordinal": 5,
+                    "enabled": false
+                },
+                {
+                    "text": "RY 10C/28C CLSD.",
+                    "ordinal": 6,
+                    "enabled": false
+                },
+                {
+                    "text": "RY 10R/28L CLSD.",
+                    "ordinal": 7,
+                    "enabled": false
+                },
+                {
+                    "text": "RY 14/32 CLSD.",
+                    "ordinal": 8,
+                    "enabled": false
+                }
+            ],
+            "datisTextReplacements": [
+                {
+                    "pattern": ", [A-Z ]*\\bFREQ (?:IS )?1(?:1[89]|[23]\\d)\\.\\d{1,3}([,.;]?)",
+                    "replacement": "$1",
+                    "isRegex": true
+                },
+                {
+                    "pattern": "(?:[^.]|\\.(?=\\d))*\\b1(?:1[89]|[23]\\d)\\.\\d{1,3}\\b(?:[^.]|\\.(?=\\d))*",
+                    "replacement": "",
+                    "isRegex": true
+                },
+                {
+                    "pattern": "[^.]*READ ?BACK[^.]*\\b(HS|HDSRT|HOLD SHORT)\\b[^.]*",
+                    "replacement": "",
+                    "isRegex": true
+                },
+                {
+                    "pattern": "[^.]*\\b(XPNDR|TRANSPONDER)\\b[^.]*",
+                    "replacement": "",
+                    "isRegex": true
+                },
+                {
+                    "pattern": "NOTAMS\\.\\.\\.\\s*$",
+                    "replacement": "",
+                    "isRegex": true
+                }
+            ]
+        },
+        {
+            "id": "3ac40f6f-e28e-5d32-bfe4-765f6c0d9c78",
+            "ordinal": 8,
+            "identifier": "KPIT",
+            "name": "Pittsburgh Intl",
+            "atisType": "Departure",
+            "codeRange": {
+                "low": "A",
+                "high": "Z"
+            },
+            "atisFormat": {
+                "observationTime": {
+                    "standardUpdateTime": [
+                        51
+                    ]
+                },
+                "surfaceWind": {
+                    "magneticVariation": {
+                        "enabled": true,
+                        "magneticDegrees": 10
+                    }
+                }
+            },
+            "notamsBeforeFreeText": false,
+            "airportConditionsBeforeFreeText": false,
+            "frequency": 135900000,
+            "idsEndpoint": "https://clevelandcenter.org/api/scripts/vATIS/post",
+            "useDecimalTerminology": false,
+            "atisVoice": {
+                "useTextToSpeech": true,
+                "voice": "Default",
+                "speechRate": 180
+            },
+            "presets": [
+                {
+                    "id": "686cc513-de75-5da5-99de-40b268725f4a",
+                    "ordinal": 0,
+                    "name": "ILS - WEST FLOW",
+                    "airportConditions": "DEPG RWY 28R, RWY 28C.",
+                    "notams": "",
+                    "template": "[FACILITY] DEPARTURE INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+                    "externalGenerator": {
+                        "enabled": false,
+                        "textUrl": "",
+                        "voiceUrl": "",
+                        "arrival": "",
+                        "departure": "",
+                        "approaches": "",
+                        "remarks": ""
+                    }
+                },
+                {
+                    "id": "17e92aae-40fa-5792-a8fb-ff7c9ee98496",
+                    "ordinal": 1,
+                    "name": "ILS - EAST FLOW",
+                    "airportConditions": "DEPG RWY 10L, RWY 10C, RWY 14.",
+                    "notams": "",
+                    "template": "[FACILITY] DEPARTURE INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+                    "externalGenerator": {
+                        "enabled": false,
+                        "textUrl": "",
+                        "voiceUrl": "",
+                        "arrival": "",
+                        "departure": "",
+                        "approaches": "",
+                        "remarks": ""
+                    }
+                },
+                {
+                    "id": "8ea5fbdd-6ec8-542e-ad48-76cf907cf13e",
+                    "ordinal": 2,
+                    "name": "VISUAL - WEST FLOW",
+                    "airportConditions": "DEPG RWY 28R, RWY 28C.",
+                    "notams": "",
+                    "template": "[FACILITY] DEPARTURE INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+                    "externalGenerator": {
+                        "enabled": false,
+                        "textUrl": "",
+                        "voiceUrl": "",
+                        "arrival": "",
+                        "departure": "",
+                        "approaches": "",
+                        "remarks": ""
+                    }
+                },
+                {
+                    "id": "45998b66-d276-518d-bcca-8e7744c1d2d5",
+                    "ordinal": 3,
+                    "name": "VISUAL - EAST FLOW",
+                    "airportConditions": "DEPG RWY 10L, RWY 10C, RWY 14.",
+                    "notams": "",
+                    "template": "[FACILITY] DEPARTURE INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+                    "externalGenerator": {
+                        "enabled": false,
+                        "textUrl": "",
+                        "voiceUrl": "",
+                        "arrival": "",
+                        "departure": "",
+                        "approaches": "",
+                        "remarks": ""
+                    }
+                },
+                {
+                    "id": "09232a1c-3284-5823-9d27-012eb3e1d23a",
+                    "ordinal": 4,
+                    "name": "D-ATIS",
+                    "airportConditions": "",
+                    "notams": "",
+                    "template": "[FACILITY] DEPARTURE INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
+                    "externalGenerator": {
+                        "enabled": false,
+                        "textUrl": "",
+                        "voiceUrl": "",
+                        "arrival": "",
+                        "departure": "",
+                        "approaches": "",
+                        "remarks": ""
+                    }
+                }
+            ],
+            "contractions": [
+                {
+                    "variableName": "ACFT",
+                    "text": "ACFT",
+                    "voice": "AIRCRAFT"
+                },
+                {
+                    "variableName": "ADVZYS",
+                    "text": "ADVZYS",
+                    "voice": "ADVISORIES"
+                },
+                {
+                    "variableName": "AFLD",
+                    "text": "AFLD",
+                    "voice": "AIRFIELD"
+                },
+                {
+                    "variableName": "APCH",
+                    "text": "APCH",
+                    "voice": "APPROACH"
+                },
+                {
+                    "variableName": "APCHS",
+                    "text": "APCHS",
+                    "voice": "APPROACHES"
+                },
+                {
+                    "variableName": "ARPT",
+                    "text": "ARPT",
+                    "voice": "AIRPORT"
+                },
+                {
+                    "variableName": "ARR",
+                    "text": "ARR",
+                    "voice": "ARRIVALS"
+                },
+                {
+                    "variableName": "AVBL",
+                    "text": "AVBL",
+                    "voice": "AVAILABLE"
+                },
+                {
+                    "variableName": "BC",
+                    "text": "BC",
+                    "voice": "BACK COURSE"
+                },
+                {
+                    "variableName": "CLSD",
+                    "text": "CLSD",
+                    "voice": "CLOSED"
+                },
+                {
+                    "variableName": "CTC",
+                    "text": "CTC",
+                    "voice": "CONTACT"
+                },
+                {
+                    "variableName": "CTN",
+                    "text": "CTN",
+                    "voice": "CAUTION"
+                },
+                {
+                    "variableName": "DEP",
+                    "text": "DEP",
+                    "voice": "DEPARTURE"
+                },
+                {
+                    "variableName": "DEPG",
+                    "text": "DEPG",
+                    "voice": "DEPARTING"
+                },
+                {
+                    "variableName": "DRCTN",
+                    "text": "DRCTN",
+                    "voice": "DIRECTION"
+                },
+                {
+                    "variableName": "EFCT",
+                    "text": "EFCT",
+                    "voice": "EFFECT"
+                },
+                {
+                    "variableName": "EXP",
+                    "text": "EXP",
+                    "voice": "EXPECT"
+                },
+                {
+                    "variableName": "FLT",
+                    "text": "FLT",
+                    "voice": "FLIGHT"
+                },
+                {
+                    "variableName": "FREQ",
+                    "text": "FREQ",
+                    "voice": "FREQUENCY"
+                },
+                {
+                    "variableName": "FT",
+                    "text": "FT",
+                    "voice": "FEET"
+                },
+                {
+                    "variableName": "HAZD",
+                    "text": "HAZD",
+                    "voice": "HAZARDOUS"
+                },
+                {
+                    "variableName": "HS",
+                    "text": "HS",
+                    "voice": "HOLD SHORT"
+                },
+                {
+                    "variableName": "INFO",
+                    "text": "INFO",
+                    "voice": "INFORMATION"
+                },
+                {
+                    "variableName": "LDG",
+                    "text": "LDG",
+                    "voice": "LANDING"
+                },
+                {
+                    "variableName": "LOC",
+                    "text": "LOC",
+                    "voice": "LOCALIZER"
+                },
+                {
+                    "variableName": "MGMT",
+                    "text": "MGMT",
+                    "voice": "MANAGEMENT"
+                },
+                {
+                    "variableName": "OPER",
+                    "text": "OPER",
+                    "voice": "OPERATE"
+                },
+                {
+                    "variableName": "OPS",
+                    "text": "OPS",
+                    "voice": "OPERATIONS"
+                },
+                {
+                    "variableName": "PPR",
+                    "text": "PPR",
+                    "voice": "PRIOR PERMISSION REQUIRED"
+                },
+                {
+                    "variableName": "RNAV",
+                    "text": "RNAV",
+                    "voice": "AR NAV"
+                },
+                {
+                    "variableName": "RQRD",
+                    "text": "RQRD",
+                    "voice": "REQUIRED"
+                },
+                {
+                    "variableName": "RQST",
+                    "text": "RQST",
+                    "voice": "REQUEST"
+                },
+                {
+                    "variableName": "RWY",
+                    "text": "RWY",
+                    "voice": "RUNWAY"
+                },
+                {
+                    "variableName": "RWYS",
+                    "text": "RWYS",
+                    "voice": "RUNWAYS"
+                },
+                {
+                    "variableName": "RY",
+                    "text": "RY",
+                    "voice": "RUNWAY"
+                },
+                {
+                    "variableName": "SIMUL",
+                    "text": "SIMUL",
+                    "voice": "SIMULTANEOUS"
+                },
+                {
+                    "variableName": "TACAN",
+                    "text": "TACAN",
+                    "voice": "TACK-AN"
+                },
+                {
+                    "variableName": "TWYS",
+                    "text": "TWYS",
+                    "voice": "TAXIWAYS"
+                },
+                {
+                    "variableName": "UNLGTD",
+                    "text": "UNLGTD",
+                    "voice": "UNLIGHTED"
+                },
+                {
+                    "variableName": "USCG",
+                    "text": "USCG",
+                    "voice": "COAST GUARD"
+                },
+                {
+                    "variableName": "WX",
+                    "text": "WX",
+                    "voice": "WEATHER"
+                },
+                {
+                    "variableName": "XPNDR",
+                    "text": "XPNDR",
+                    "voice": "TRANSPONDER"
+                }
+            ],
+            "airportConditionDefinitions": [],
+            "notamDefinitions": [
+                {
+                    "text": "OPERATE XPNDR IN ALTITUDE REPORTING MODE ON ALL TWYS AND RWYS.",
+                    "ordinal": 1,
+                    "enabled": true
+                },
+                {
+                    "text": "READBACK ALL RWY HS INSTRUCTIONS.",
+                    "ordinal": 2,
+                    "enabled": true
+                },
+                {
+                    "text": "MAIN TERMINAL RAMP IS UNCONTROLLED DO NOT CALL FOR PUSHBACK.",
+                    "ordinal": 3,
+                    "enabled": true
+                },
+                {
+                    "text": "HAZD WX INFO FOR PIT AREA AVBL ATC FREQ BY RQST.",
+                    "ordinal": 4,
+                    "weatherCondition": "wx includes \"TS FZRA FZDZ PL GR\"",
+                    "enabled": true
+                },
+                {
+                    "text": "WIND SHEAR ADVZYS IN EFCT.",
+                    "ordinal": 5,
+                    "weatherCondition": "windshear OR wx includes TS OR gust >= 30kt",
+                    "enabled": true
+                },
+                {
+                    "text": "RY 10L/28R CLSD.",
+                    "ordinal": 6,
+                    "enabled": false
+                },
+                {
+                    "text": "RY 10C/28C CLSD.",
+                    "ordinal": 7,
+                    "enabled": false
+                },
+                {
+                    "text": "RY 10R/28L CLSD.",
+                    "ordinal": 8,
+                    "enabled": false
+                },
+                {
+                    "text": "RY 14/32 CLSD.",
+                    "ordinal": 9,
+                    "enabled": false
+                }
+            ],
+            "datisTextReplacements": [
+                {
+                    "pattern": ", [A-Z ]*\\bFREQ (?:IS )?1(?:1[89]|[23]\\d)\\.\\d{1,3}([,.;]?)",
+                    "replacement": "$1",
+                    "isRegex": true
+                },
+                {
+                    "pattern": "(?:[^.]|\\.(?=\\d))*\\b1(?:1[89]|[23]\\d)\\.\\d{1,3}\\b(?:[^.]|\\.(?=\\d))*",
+                    "replacement": "",
+                    "isRegex": true
+                },
+                {
+                    "pattern": "[^.]*READ ?BACK[^.]*\\b(HS|HDSRT|HOLD SHORT)\\b[^.]*",
+                    "replacement": "",
+                    "isRegex": true
+                },
+                {
+                    "pattern": "[^.]*\\b(XPNDR|TRANSPONDER)\\b[^.]*",
+                    "replacement": "",
+                    "isRegex": true
+                },
+                {
+                    "pattern": "[^.]*MAIN TERMINAL RAMP[^.]*",
+                    "replacement": "",
+                    "isRegex": true
+                },
+                {
+                    "pattern": "NOTAMS\\.\\.\\.\\s*$",
+                    "replacement": "",
+                    "isRegex": true
+                }
+            ]
+        },
+        {
             "id": "1fd6881f-0324-49b5-bc88-f15b95e3b363",
-            "ordinal": 3,
+            "ordinal": 9,
             "identifier": "KBUF",
             "name": "Buffalo Intl",
             "atisType": "Combined",
@@ -1588,7 +4199,7 @@
         },
         {
             "id": "4d88344d-8694-4261-b5b2-bf3d84651454",
-            "ordinal": 4,
+            "ordinal": 10,
             "identifier": "KROC",
             "name": "Greater Rochester Intl",
             "atisType": "Combined",
@@ -2002,7 +4613,7 @@
         },
         {
             "id": "d9f0e948-d199-4b02-b681-1d1af770e560",
-            "ordinal": 5,
+            "ordinal": 11,
             "identifier": "KERI",
             "name": "Erie Intl",
             "atisType": "Combined",
@@ -2348,7 +4959,7 @@
         },
         {
             "id": "137f5179-d656-46a0-b2e7-30e1099c3d1d",
-            "ordinal": 6,
+            "ordinal": 12,
             "identifier": "KYNG",
             "name": "Youngstown-Warren Rgnl",
             "atisType": "Combined",
@@ -2694,7 +5305,7 @@
         },
         {
             "id": "917b5762-e27a-4dbd-939c-29804468014c",
-            "ordinal": 7,
+            "ordinal": 13,
             "identifier": "KCAK",
             "name": "Akron-Canton Rgnl",
             "atisType": "Combined",
@@ -3035,7 +5646,7 @@
         },
         {
             "id": "8a1b7241-0966-458f-a55c-04ca11874a1c",
-            "ordinal": 8,
+            "ordinal": 14,
             "identifier": "KMFD",
             "name": "Mansfield Lahm Regional",
             "atisType": "Combined",
@@ -3386,7 +5997,7 @@
         },
         {
             "id": "311458b1-331d-4bb2-a1a9-cda367fd10db",
-            "ordinal": 9,
+            "ordinal": 15,
             "identifier": "KCKB",
             "name": "North Central West Virginia",
             "atisType": "Combined",
@@ -3717,7 +6328,7 @@
         },
         {
             "id": "5fe37197-260f-4cd4-88ad-a0538273f320",
-            "ordinal": 10,
+            "ordinal": 16,
             "identifier": "KTOL",
             "name": "Toledo Express",
             "atisType": "Combined",
@@ -4058,7 +6669,7 @@
         },
         {
             "id": "10557699-d528-4438-a2c1-9c50c9c7ca8a",
-            "ordinal": 11,
+            "ordinal": 17,
             "identifier": "KFNT",
             "name": "Bishop Intl",
             "atisType": "Combined",
@@ -4472,7 +7083,7 @@
         },
         {
             "id": "42bca577-1be3-4e17-9025-59be152da480",
-            "ordinal": 12,
+            "ordinal": 18,
             "identifier": "KLAN",
             "name": "Capital Region Intl",
             "atisType": "Combined",
@@ -4818,7 +7429,7 @@
         },
         {
             "id": "4e6af371-d824-44a5-b1db-6aa383843f95",
-            "ordinal": 13,
+            "ordinal": 19,
             "identifier": "KMBS",
             "name": "MBS Intl/Saginaw",
             "atisType": "Combined",
@@ -5164,7 +7775,7 @@
         },
         {
             "id": "df8111fe-8cf6-43e4-ba50-a28a8b5f6415",
-            "ordinal": 14,
+            "ordinal": 20,
             "identifier": "KJST",
             "name": "Johnstown Cambria Co",
             "atisType": "Combined",
