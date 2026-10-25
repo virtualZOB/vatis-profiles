@@ -1274,7 +1274,7 @@
                     "id": "22f43480-385b-57c3-abb2-a8e715f2580b",
                     "ordinal": 3,
                     "name": "IMC-EAST",
-                    "airportConditions": "ILS RWY 10 APCH IN USE. DEPG RWY 28.",
+                    "airportConditions": "ILS RWY 10 APCH IN USE. DEPG RWY 10.",
                     "notams": "",
                     "template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
@@ -1895,7 +1895,7 @@
                     "id": "e7357617-c3f5-5700-95c1-5af6898307a5",
                     "ordinal": 0,
                     "name": "VMC-SOUTH",
-                    "airportConditions": "VISUAL APCH IN USE. LDG AND DEPG RWY 21 AND RWY 19.",
+                    "airportConditions": "VISUAL APCH IN USE. LDG AND DEPG RWY 21 AND RWY 16.",
                     "notams": "",
                     "template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
@@ -1929,7 +1929,7 @@
                     "id": "b4832893-72a4-595a-9f65-1d1127fb5ede",
                     "ordinal": 2,
                     "name": "IMC-SOUTH",
-                    "airportConditions": "RNAV RWY 21 APCH IN USE. LDG AND DEPG RWY 03 AND RWY 34.",
+                    "airportConditions": "RNAV RWY 21 APCH IN USE. LDG AND DEPG RWY 21 AND RWY 16.",
                     "notams": "",
                     "template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
@@ -2196,7 +2196,7 @@
                     "enabled": false
                 },
                 {
-                    "text": "RWY 19/34 CLSD.",
+                    "text": "RWY 16/34 CLSD.",
                     "ordinal": 5,
                     "enabled": false
                 }
