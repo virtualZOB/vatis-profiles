@@ -1,7 +1,7 @@
 {
     "name": "Detroit TRACON",
     "updateUrl": "https://raw.githubusercontent.com/virtualZOB/vatis-profiles/refs/heads/main/D21.json",
-    "updateSerial": 2026102402,
+    "updateSerial": 2026102500,
     "stations": [
         {
             "id": "e9636d3c-f218-4ed9-ae06-c7d47a03e747",
@@ -1880,18 +1880,8 @@
                     "enabled": true
                 },
                 {
-                    "text": "RWY 07/25 CLSD.",
-                    "ordinal": 4,
-                    "enabled": false
-                },
-                {
                     "text": "RWY 15/33 CLSD.",
-                    "ordinal": 5,
-                    "enabled": false
-                },
-                {
-                    "text": "LAHSO IN USE.",
-                    "ordinal": 6,
+                    "ordinal": 4,
                     "enabled": false
                 }
             ]
@@ -2678,7 +2668,7 @@
                     "id": "ecbd3c7f-c6b4-56f4-bcc0-2c711af05288",
                     "ordinal": 3,
                     "name": "VMC - 5/9 FLOW",
-                    "airportConditions": "VISUAL APCH RWY 5R, VISUAL APCH RWY 9 IN USE. DEPG RWY 5R, RWY 9.",
+                    "airportConditions": "VISUAL APCH RWY 5, VISUAL APCH RWY 9 IN USE. DEPG RWY 5, RWY 9.",
                     "notams": "",
                     "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
