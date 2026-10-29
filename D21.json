@@ -2561,19 +2561,24 @@
                     "enabled": true
                 },
                 {
-                    "text": "HAZD WX INFO FOR DTX AREA AVBL ATC FREQ BY RQST.",
+                    "text": "USE MODE C ON ALL SURFACES.",
                     "ordinal": 3,
+                    "enabled": true
+                },
+                {
+                    "text": "HAZD WX INFO FOR DTX AREA AVBL ATC FREQ BY RQST.",
+                    "ordinal": 4,
                     "weatherCondition": "wx includes \"TS FZRA FZDZ PL GR\"",
                     "enabled": true
                 },
                 {
                     "text": "RWY 09L/27R CLSD.",
-                    "ordinal": 4,
+                    "ordinal": 5,
                     "enabled": false
                 },
                 {
                     "text": "RWY 09R/27L CLSD.",
-                    "ordinal": 5,
+                    "ordinal": 6,
                     "enabled": false
                 }
             ]
