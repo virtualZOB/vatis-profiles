@@ -1,7 +1,7 @@
 {
     "name": "Clarksburg TRACON",
     "updateUrl": "https://raw.githubusercontent.com/virtualZOB/vatis-profiles/refs/heads/main/CKB.json",
-    "updateSerial": 2026102500,
+    "updateSerial": 2026102900,
     "stations": [
         {
             "id": "7dfc06d5-f92f-4cee-aee6-97a7293c57b6",

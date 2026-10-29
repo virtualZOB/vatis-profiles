@@ -1,7 +1,7 @@
 {
     "name": "Great Lakes TRACON",
     "updateUrl": "https://raw.githubusercontent.com/virtualZOB/vatis-profiles/refs/heads/main/LAN_GreatLakes.json",
-    "updateSerial": 2026102500,
+    "updateSerial": 2026102900,
     "stations": [
         {
             "id": "a867f0e4-4349-4ae5-9f98-2e9733269542",
