@@ -2026,7 +2026,7 @@
                     "id": "cc8f54bc-bd08-5391-9641-f7378e4f853f",
                     "ordinal": 2,
                     "name": "IMC-23/32",
-                    "airportConditions": "ILS RWY 23 APCH IN USE. DEPG RWY 23, RWY 32.",
+                    "airportConditions": "ILS RWY 32 APCH, RNAV RWY 23 APCH IN USE. DEPG RWY 23, RWY 32.",
                     "notams": "",
                     "template": "[FACILITY] ATIS INFORMATION [ATIS_CODE]. [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
                     "externalGenerator": {
